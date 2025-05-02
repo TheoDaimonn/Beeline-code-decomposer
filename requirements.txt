@@ -1,0 +1,5 @@
+nbformat
+pandas
+plotly
+networkx
+langchain_openai
