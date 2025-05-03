@@ -1,0 +1,42 @@
+version: '3'
+
+networks:
+  app-network:
+    driver: bridge  
+
+services:
+  backend:
+    container_name: backend
+    build: ./code-graph-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SECRET_TOKEN=${SECRET_TOKEN}
+      - FLASK_RUN_HOST=${FLASK_RUN_HOST}
+      - FLASK_RUN_PORT=${FLASK_RUN_PORT}
+      - FALKORDB_HOST=${FALKORDB_HOST}
+      - FALKORDB_PORT=${FALKORDB_PORT}
+    networks:
+      - app-network
+
+  frontend:
+    container_name: frontend
+    build: ./code-graph  
+    ports:
+      - "3000:3000"
+    environment:
+        - BACKEND_URL=${BACKEND_URL}
+        - OPENAI_API_KEY=${OPENAI_API_KEY}
+        - SECRET_TOKEN=${SECRET_TOKEN}
+    networks:
+      - app-network   
+
+  graphdb:
+    container_name: graphdb
+    image: falkordb/falkordb
+    ports:
+      - "6379:6379"
+      - "3001:3000"
+    networks:
+      - app-network 
