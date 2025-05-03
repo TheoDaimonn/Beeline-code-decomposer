@@ -1,0 +1,6510 @@
+{
+  "files": {
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/README.md": {
+      "language": "markdown",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/run_mypy.sh": {
+      "language": "bash",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/qa.sh": {
+      "language": "bash",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/run_pylint.sh": {
+      "language": "bash",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app_models/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app_models/web_app_models/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "RolesUsers",
+        "Role",
+        "User"
+      ],
+      "interfaces": [],
+      "imports": [
+        "flask_security",
+        "sqlalchemy",
+        "sqlalchemy.orm",
+        "db_infrastructure"
+      ],
+      "calls": [
+        [
+          "Column",
+          11
+        ],
+        [
+          "Column",
+          12
+        ],
+        [
+          "ForeignKey",
+          12
+        ],
+        [
+          "Column",
+          13
+        ],
+        [
+          "ForeignKey",
+          13
+        ],
+        [
+          "Column",
+          19
+        ],
+        [
+          "Column",
+          20
+        ],
+        [
+          "String",
+          20
+        ],
+        [
+          "Column",
+          21
+        ],
+        [
+          "String",
+          21
+        ],
+        [
+          "Column",
+          27
+        ],
+        [
+          "Column",
+          28
+        ],
+        [
+          "String",
+          28
+        ],
+        [
+          "Column",
+          29
+        ],
+        [
+          "String",
+          29
+        ],
+        [
+          "Column",
+          30
+        ],
+        [
+          "Boolean",
+          30
+        ],
+        [
+          "Column",
+          31
+        ],
+        [
+          "DateTime",
+          31
+        ],
+        [
+          "relationship",
+          32
+        ],
+        [
+          "backref",
+          32
+        ]
+      ],
+      "call_map": {
+        "Column": [
+          11,
+          12,
+          13,
+          19,
+          20,
+          21,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "ForeignKey": [
+          12,
+          13
+        ],
+        "String": [
+          20,
+          21,
+          28,
+          29
+        ],
+        "Boolean": [
+          30
+        ],
+        "DateTime": [
+          31
+        ],
+        "relationship": [
+          32
+        ],
+        "backref": [
+          32
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "Shipping"
+      ],
+      "interfaces": [],
+      "imports": [
+        "injector",
+        "shipping.application.queries",
+        "shipping.application.repositories",
+        "shipping.application.use_cases"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/domain/events.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/domain/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/domain/exceptions.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "PackageAlreadyShipped"
+      ],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/domain/value_objects/package_status.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "PackageStatus"
+      ],
+      "interfaces": [],
+      "imports": [
+        "enum"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/domain/value_objects/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "shipping.domain.value_objects.package_status"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/domain/entities/address.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "Address"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "uuid"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/domain/entities/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "shipping.domain.entities.address"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/tests/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/tests/domain/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/tests/application/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/application/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/application/use_cases/shipping_package.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "ShippingPackageInputDto",
+        "ShippingPackage"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "uuid"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/application/use_cases/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "shipping.application.use_cases.shipping_package"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/application/queries/package.py": {
+      "language": "python",
+      "functions": [
+        "query"
+      ],
+      "classes": [
+        "PackageDto",
+        "GetNextPackage"
+      ],
+      "interfaces": [],
+      "imports": [
+        "abc",
+        "dataclasses",
+        "typing"
+      ],
+      "calls": [],
+      "call_map": {
+        "query": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/application/queries/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "shipping.application.queries.package"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/application/repositories/address.py": {
+      "language": "python",
+      "functions": [
+        "get"
+      ],
+      "classes": [
+        "AddressRepository"
+      ],
+      "interfaces": [],
+      "imports": [
+        "abc",
+        "shipping.domain.entities",
+        "shipping.domain.value_objects"
+      ],
+      "calls": [],
+      "call_map": {
+        "get": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping/shipping/application/repositories/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "shipping.application.repositories.address"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/events.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "PaymentStarted",
+        "PaymentCharged",
+        "PaymentCaptured",
+        "PaymentFailed"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "uuid",
+        "foundation.events"
+      ],
+      "calls": [
+        [
+          "dataclass",
+          7
+        ],
+        [
+          "dataclass",
+          13
+        ],
+        [
+          "dataclass",
+          19
+        ],
+        [
+          "dataclass",
+          25
+        ]
+      ],
+      "call_map": {
+        "dataclass": [
+          7,
+          13,
+          19,
+          25
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/__init__.py": {
+      "language": "python",
+      "functions": [
+        "facade",
+        "configure",
+        "__init__",
+        "__call__"
+      ],
+      "classes": [
+        "Payments",
+        "PaymentChargedHandler"
+      ],
+      "interfaces": [],
+      "imports": [
+        "injector",
+        "sqlalchemy.engine",
+        "foundation.events",
+        "payments.config",
+        "payments.events",
+        "payments.facade"
+      ],
+      "calls": [
+        [
+          "PaymentsFacade",
+          27
+        ],
+        [
+          "AsyncEventHandlerProvider",
+          30
+        ]
+      ],
+      "call_map": {
+        "facade": [],
+        "PaymentsFacade": [
+          27
+        ],
+        "configure": [],
+        "AsyncEventHandlerProvider": [
+          30
+        ],
+        "__init__": [],
+        "__call__": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/facade.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "get_pending_payments",
+        "start_new_payment",
+        "charge",
+        "capture"
+      ],
+      "classes": [
+        "PaymentsFacade"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "uuid",
+        "sqlalchemy.engine",
+        "foundation.events",
+        "foundation.value_objects",
+        "payments",
+        "payments.api",
+        "payments.config",
+        "payments.events"
+      ],
+      "calls": [
+        [
+          "ApiConsumer",
+          17
+        ],
+        [
+          "PaymentStarted",
+          26
+        ],
+        [
+          "Exception",
+          31
+        ],
+        [
+          "PaymentFailed",
+          37
+        ],
+        [
+          "PaymentCharged",
+          41
+        ],
+        [
+          "PaymentCaptured",
+          48
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "ApiConsumer": [
+          17
+        ],
+        "get_pending_payments": [],
+        "start_new_payment": [],
+        "PaymentStarted": [
+          26
+        ],
+        "charge": [],
+        "Exception": [
+          31
+        ],
+        "PaymentFailed": [
+          37
+        ],
+        "PaymentCharged": [
+          41
+        ],
+        "capture": [],
+        "PaymentCaptured": [
+          48
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/dao.py": {
+      "language": "python",
+      "functions": [
+        "from_row",
+        "start_new_payment",
+        "get_pending_payments",
+        "get_payment",
+        "get_payment_charge_id",
+        "update_payment"
+      ],
+      "classes": [
+        "PaymentStatus",
+        "PaymentDto"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "enum",
+        "typing",
+        "uuid",
+        "sqlalchemy.engine",
+        "foundation.value_objects",
+        "payments.models"
+      ],
+      "calls": [
+        [
+          "PaymentDto",
+          30
+        ],
+        [
+          "UUID",
+          30
+        ],
+        [
+          "str",
+          37
+        ],
+        [
+          "int",
+          39
+        ],
+        [
+          "str",
+          57
+        ],
+        [
+          "str",
+          64
+        ],
+        [
+          "str",
+          66
+        ],
+        [
+          "str",
+          72
+        ]
+      ],
+      "call_map": {
+        "from_row": [],
+        "PaymentDto": [
+          30
+        ],
+        "UUID": [
+          30
+        ],
+        "start_new_payment": [],
+        "str": [
+          37,
+          57,
+          64,
+          66,
+          72
+        ],
+        "int": [
+          39
+        ],
+        "get_pending_payments": [],
+        "get_payment": [],
+        "get_payment_charge_id": [],
+        "update_payment": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/config.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "PaymentsConfig"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses"
+      ],
+      "calls": [
+        [
+          "dataclass",
+          4
+        ]
+      ],
+      "call_map": {
+        "dataclass": [
+          4
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/models.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "sqlalchemy",
+        "db_infrastructure"
+      ],
+      "calls": [
+        [
+          "Table",
+          5
+        ],
+        [
+          "Column",
+          8
+        ],
+        [
+          "String",
+          8
+        ],
+        [
+          "Column",
+          9
+        ],
+        [
+          "Column",
+          10
+        ],
+        [
+          "Column",
+          11
+        ],
+        [
+          "String",
+          11
+        ],
+        [
+          "Column",
+          12
+        ],
+        [
+          "Column",
+          13
+        ],
+        [
+          "String",
+          13
+        ],
+        [
+          "Column",
+          14
+        ],
+        [
+          "String",
+          14
+        ]
+      ],
+      "call_map": {
+        "Table": [
+          5
+        ],
+        "Column": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "String": [
+          8,
+          11,
+          13,
+          14
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/api/consumer.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "charge",
+        "capture",
+        "_execute_request",
+        "_get_iso_code_and_amount"
+      ],
+      "classes": [
+        "ApiConsumer"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "requests",
+        "foundation.value_objects",
+        "payments.api.exceptions",
+        "payments.api.requests",
+        "payments.api.responses"
+      ],
+      "calls": [
+        [
+          "TypeVar",
+          11
+        ],
+        [
+          "ChargeRequest",
+          20
+        ],
+        [
+          "str",
+          20
+        ],
+        [
+          "CaptureRequest",
+          25
+        ],
+        [
+          "int",
+          36
+        ]
+      ],
+      "call_map": {
+        "TypeVar": [
+          11
+        ],
+        "__init__": [],
+        "charge": [],
+        "ChargeRequest": [
+          20
+        ],
+        "str": [
+          20
+        ],
+        "capture": [],
+        "CaptureRequest": [
+          25
+        ],
+        "_execute_request": [],
+        "_get_iso_code_and_amount": [],
+        "int": [
+          36
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/api/requests.py": {
+      "language": "python",
+      "functions": [
+        "to_params",
+        "url"
+      ],
+      "classes": [
+        "Request",
+        "ChargeRequest",
+        "CaptureRequest"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses"
+      ],
+      "calls": [
+        [
+          "getattr",
+          10
+        ],
+        [
+          "fields",
+          10
+        ]
+      ],
+      "call_map": {
+        "to_params": [],
+        "getattr": [
+          10
+        ],
+        "fields": [
+          10
+        ],
+        "url": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/api/responses.py": {
+      "language": "python",
+      "functions": [
+        "from_dict"
+      ],
+      "classes": [
+        "Response",
+        "ChargeResponse",
+        "CaptureResponse"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses"
+      ],
+      "calls": [
+        [
+          "fields",
+          8
+        ],
+        [
+          "cls",
+          10
+        ]
+      ],
+      "call_map": {
+        "from_dict": [],
+        "fields": [
+          8
+        ],
+        "cls": [
+          10
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/api/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "payments.api.consumer",
+        "payments.api.exceptions"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/api/exceptions.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "PaymentFailedError"
+      ],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/tests/test_facade.py": {
+      "language": "python",
+      "functions": [
+        "sqlalchemy_connect_url",
+        "event_bus",
+        "setup_teardown_tables",
+        "facade",
+        "inserted_payment",
+        "get_payment",
+        "test_adding_new_payment_is_reflected_on_pending_payments_list",
+        "test_pending_payments_returns_only_new_payments",
+        "test_successful_charge_updates_status",
+        "test_unsuccessful_charge",
+        "test_capture"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "unittest.mock",
+        "uuid",
+        "_pytest.fixtures",
+        "pytest",
+        "sqlalchemy.engine",
+        "foundation.events",
+        "foundation.value_objects.factories",
+        "db_infrastructure",
+        "payments.api",
+        "payments.api.exceptions",
+        "payments.config",
+        "payments.dao",
+        "payments.events",
+        "payments.facade",
+        "payments.models"
+      ],
+      "calls": [
+        [
+          "Mock",
+          29
+        ],
+        [
+          "PaymentsFacade",
+          39
+        ],
+        [
+          "PaymentsConfig",
+          39
+        ],
+        [
+          "getattr",
+          44
+        ],
+        [
+          "str",
+          47
+        ],
+        [
+          "get_dollars",
+          72
+        ],
+        [
+          "dict",
+          78
+        ],
+        [
+          "str",
+          79
+        ],
+        [
+          "int",
+          81
+        ],
+        [
+          "PaymentDto",
+          90
+        ],
+        [
+          "PaymentStarted",
+          91
+        ],
+        [
+          "get_dollars",
+          116
+        ],
+        [
+          "get_payment",
+          117
+        ],
+        [
+          "PaymentCharged",
+          120
+        ],
+        [
+          "get_dollars",
+          132
+        ],
+        [
+          "get_payment",
+          133
+        ],
+        [
+          "PaymentFailed",
+          134
+        ],
+        [
+          "get_payment",
+          145
+        ],
+        [
+          "PaymentCaptured",
+          146
+        ]
+      ],
+      "call_map": {
+        "sqlalchemy_connect_url": [],
+        "event_bus": [],
+        "Mock": [
+          29
+        ],
+        "setup_teardown_tables": [],
+        "facade": [],
+        "PaymentsFacade": [
+          39
+        ],
+        "PaymentsConfig": [
+          39
+        ],
+        "inserted_payment": [],
+        "getattr": [
+          44
+        ],
+        "str": [
+          47,
+          79
+        ],
+        "get_payment": [
+          117,
+          133,
+          145
+        ],
+        "test_adding_new_payment_is_reflected_on_pending_payments_list": [],
+        "get_dollars": [
+          72,
+          116,
+          132
+        ],
+        "dict": [
+          78
+        ],
+        "int": [
+          81
+        ],
+        "PaymentDto": [
+          90
+        ],
+        "PaymentStarted": [
+          91
+        ],
+        "test_pending_payments_returns_only_new_payments": [],
+        "test_successful_charge_updates_status": [],
+        "PaymentCharged": [
+          120
+        ],
+        "test_unsuccessful_charge": [],
+        "PaymentFailed": [
+          134
+        ],
+        "test_capture": [],
+        "PaymentCaptured": [
+          146
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/tests/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/tests/conftest.py": {
+      "language": "python",
+      "functions": [
+        "pytest_addoption"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "_pytest.config.argparsing"
+      ],
+      "calls": [],
+      "call_map": {
+        "pytest_addoption": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/tests/api/test_consumer.py": {
+      "language": "python",
+      "functions": [
+        "api_key",
+        "api_consumer",
+        "source",
+        "test_charge_then_capture"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "_pytest.fixtures",
+        "pytest",
+        "requests",
+        "foundation.value_objects.factories",
+        "payments.api",
+        "payments.api.requests"
+      ],
+      "calls": [
+        [
+          "str",
+          16
+        ],
+        [
+          "ApiConsumer",
+          23
+        ],
+        [
+          "str",
+          34
+        ],
+        [
+          "str",
+          39
+        ],
+        [
+          "get_dollars",
+          44
+        ]
+      ],
+      "call_map": {
+        "api_key": [],
+        "str": [
+          16,
+          34,
+          39
+        ],
+        "api_consumer": [],
+        "ApiConsumer": [
+          23
+        ],
+        "source": [],
+        "test_charge_then_capture": [],
+        "get_dollars": [
+          44
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/payments/payments/tests/api/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/main/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/main/main/async_handler_task.py": {
+      "language": "python",
+      "functions": [
+        "async_handler_generic_task"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "sqlalchemy.engine",
+        "main",
+        "main.modules"
+      ],
+      "calls": [
+        [
+          "bootstrap_app",
+          13
+        ],
+        [
+          "instance",
+          20
+        ]
+      ],
+      "call_map": {
+        "async_handler_generic_task": [],
+        "bootstrap_app": [
+          13
+        ],
+        "instance": [
+          20
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/main/main/redis.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "__enter__",
+        "__exit__"
+      ],
+      "classes": [
+        "RedisLock"
+      ],
+      "interfaces": [],
+      "imports": [
+        "types",
+        "typing",
+        "redis",
+        "typing_extensions",
+        "foundation.locks"
+      ],
+      "calls": [],
+      "call_map": {
+        "__init__": [],
+        "__enter__": [],
+        "__exit__": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/main/main/__init__.py": {
+      "language": "python",
+      "functions": [
+        "bootstrap_app",
+        "_setup_dependency_injection",
+        "_setup_orm_events",
+        "insert_cb",
+        "update_cb",
+        "_create_db_schema"
+      ],
+      "classes": [
+        "AppContext"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "os",
+        "dotenv",
+        "injector",
+        "sqlalchemy",
+        "sqlalchemy.engine",
+        "auctions",
+        "auctions_infrastructure",
+        "customer_relationship",
+        "db_infrastructure",
+        "main.modules",
+        "payments",
+        "processes",
+        "shipping",
+        "shipping_infrastructure",
+        "web_app_models",
+        "auctions_infrastructure",
+        "customer_relationship.models",
+        "web_app_models"
+      ],
+      "calls": [
+        [
+          "create_engine",
+          48
+        ],
+        [
+          "_setup_dependency_injection",
+          49
+        ],
+        [
+          "_setup_orm_events",
+          50
+        ],
+        [
+          "_create_db_schema",
+          52
+        ],
+        [
+          "AppContext",
+          54
+        ],
+        [
+          "Db",
+          60
+        ],
+        [
+          "RedisMod",
+          61
+        ],
+        [
+          "Rq",
+          62
+        ],
+        [
+          "EventBusMod",
+          63
+        ],
+        [
+          "Configs",
+          64
+        ],
+        [
+          "Auctions",
+          65
+        ],
+        [
+          "AuctionsInfrastructure",
+          66
+        ],
+        [
+          "Shipping",
+          67
+        ],
+        [
+          "ShippingInfrastructure",
+          68
+        ],
+        [
+          "CustomerRelationship",
+          69
+        ],
+        [
+          "Payments",
+          70
+        ],
+        [
+          "Processes",
+          71
+        ]
+      ],
+      "call_map": {
+        "bootstrap_app": [],
+        "create_engine": [
+          48
+        ],
+        "_setup_dependency_injection": [
+          49
+        ],
+        "_setup_orm_events": [
+          50
+        ],
+        "_create_db_schema": [
+          52
+        ],
+        "AppContext": [
+          54
+        ],
+        "Db": [
+          60
+        ],
+        "RedisMod": [
+          61
+        ],
+        "Rq": [
+          62
+        ],
+        "EventBusMod": [
+          63
+        ],
+        "Configs": [
+          64
+        ],
+        "Auctions": [
+          65
+        ],
+        "AuctionsInfrastructure": [
+          66
+        ],
+        "Shipping": [
+          67
+        ],
+        "ShippingInfrastructure": [
+          68
+        ],
+        "CustomerRelationship": [
+          69
+        ],
+        "Payments": [
+          70
+        ],
+        "Processes": [
+          71
+        ],
+        "insert_cb": [],
+        "update_cb": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/main/main/modules.py": {
+      "language": "python",
+      "functions": [
+        "configure",
+        "enter",
+        "exit",
+        "__enter__",
+        "__exit__",
+        "get",
+        "__init__",
+        "connection",
+        "session",
+        "__init__",
+        "configure",
+        "lock",
+        "create_lock",
+        "queue",
+        "run_async_handler",
+        "enqueue_after_commit",
+        "event_bus",
+        "__init__",
+        "customer_relationship_config",
+        "payments_config"
+      ],
+      "classes": [
+        "RequestScope",
+        "Db",
+        "RedisMod",
+        "Rq",
+        "EventBusMod",
+        "Configs"
+      ],
+      "interfaces": [],
+      "imports": [
+        "threading",
+        "typing",
+        "injector",
+        "injector",
+        "redis",
+        "rq",
+        "sqlalchemy",
+        "sqlalchemy.engine",
+        "sqlalchemy.orm",
+        "foundation.events",
+        "foundation.locks",
+        "customer_relationship",
+        "main.async_handler_task",
+        "main.redis",
+        "payments"
+      ],
+      "calls": [
+        [
+          "hasattr",
+          28
+        ],
+        [
+          "setattr",
+          29
+        ],
+        [
+          "getattr",
+          32
+        ],
+        [
+          "delattr",
+          34
+        ],
+        [
+          "repr",
+          34
+        ],
+        [
+          "delattr",
+          36
+        ],
+        [
+          "getattr",
+          46
+        ],
+        [
+          "repr",
+          46
+        ],
+        [
+          "setattr",
+          49
+        ],
+        [
+          "repr",
+          49
+        ],
+        [
+          "getattr",
+          51
+        ],
+        [
+          "Exception",
+          53
+        ],
+        [
+          "Session",
+          73
+        ],
+        [
+          "Redis",
+          81
+        ],
+        [
+          "RedisLock",
+          86
+        ],
+        [
+          "Queue",
+          95
+        ],
+        [
+          "InjectorEventBus",
+          111
+        ],
+        [
+          "CustomerRelationshipConfig",
+          121
+        ],
+        [
+          "int",
+          123
+        ],
+        [
+          "PaymentsConfig",
+          132
+        ]
+      ],
+      "call_map": {
+        "configure": [],
+        "enter": [],
+        "hasattr": [
+          28
+        ],
+        "setattr": [
+          29,
+          49
+        ],
+        "exit": [],
+        "getattr": [
+          32,
+          46,
+          51
+        ],
+        "delattr": [
+          34,
+          36
+        ],
+        "repr": [
+          34,
+          46,
+          49
+        ],
+        "__enter__": [],
+        "__exit__": [],
+        "get": [],
+        "Exception": [
+          53
+        ],
+        "__init__": [],
+        "connection": [],
+        "session": [],
+        "Session": [
+          73
+        ],
+        "Redis": [
+          81
+        ],
+        "lock": [],
+        "create_lock": [],
+        "RedisLock": [
+          86
+        ],
+        "queue": [],
+        "Queue": [
+          95
+        ],
+        "run_async_handler": [],
+        "enqueue_after_commit": [],
+        "event_bus": [],
+        "InjectorEventBus": [
+          111
+        ],
+        "customer_relationship_config": [],
+        "CustomerRelationshipConfig": [
+          121
+        ],
+        "int": [
+          123
+        ],
+        "payments_config": [],
+        "PaymentsConfig": [
+          132
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/events.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "_record_event",
+        "domain_events",
+        "clear_events",
+        "__init__",
+        "get",
+        "__init__",
+        "get",
+        "post",
+        "__init__",
+        "post"
+      ],
+      "classes": [
+        "Event",
+        "EventMixin",
+        "Handler",
+        "AsyncHandler",
+        "EventHandlerProvider",
+        "AsyncEventHandlerProvider",
+        "EventBus",
+        "InjectorEventBus"
+      ],
+      "interfaces": [],
+      "imports": [
+        "abc",
+        "typing",
+        "injector"
+      ],
+      "calls": [
+        [
+          "TypeVar",
+          6
+        ],
+        [
+          "type",
+          94
+        ],
+        [
+          "isinstance",
+          98
+        ],
+        [
+          "handler",
+          100
+        ],
+        [
+          "type",
+          103
+        ],
+        [
+          "isinstance",
+          107
+        ]
+      ],
+      "call_map": {
+        "TypeVar": [
+          6
+        ],
+        "__init__": [],
+        "_record_event": [],
+        "domain_events": [],
+        "clear_events": [],
+        "get": [],
+        "post": [],
+        "type": [
+          94,
+          103
+        ],
+        "isinstance": [
+          98,
+          107
+        ],
+        "handler": [
+          100
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/method_dispatch.py": {
+      "language": "python",
+      "functions": [
+        "method_dispatch",
+        "wrapper"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "functools",
+        "typing"
+      ],
+      "calls": [],
+      "call_map": {
+        "method_dispatch": [],
+        "wrapper": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/locks.py": {
+      "language": "python",
+      "functions": [
+        "__enter__",
+        "__exit__"
+      ],
+      "classes": [
+        "AlreadyLocked",
+        "Lock"
+      ],
+      "interfaces": [],
+      "imports": [
+        "types",
+        "typing",
+        "typing_extensions"
+      ],
+      "calls": [],
+      "call_map": {
+        "__enter__": [],
+        "__exit__": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/serializing.py": {
+      "language": "python",
+      "functions": [
+        "_extract_type_if_optional",
+        "_deserialize_dt",
+        "from_json",
+        "to_json"
+      ],
+      "classes": [
+        "Dataclass"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "datetime",
+        "enum",
+        "json",
+        "typing",
+        "uuid",
+        "typing_extensions",
+        "foundation.value_objects",
+        "foundation.value_objects.factories"
+      ],
+      "calls": [
+        [
+          "TypeVar",
+          13
+        ],
+        [
+          "hasattr",
+          23
+        ],
+        [
+          "type",
+          23
+        ],
+        [
+          "Exception",
+          28
+        ],
+        [
+          "get_dollars",
+          42
+        ],
+        [
+          "str",
+          51
+        ],
+        [
+          "_extract_type_if_optional",
+          59
+        ],
+        [
+          "issubclass",
+          61
+        ],
+        [
+          "Exception",
+          64
+        ],
+        [
+          "dataclass",
+          71
+        ],
+        [
+          "type",
+          76
+        ],
+        [
+          "_extract_type_if_optional",
+          77
+        ],
+        [
+          "issubclass",
+          79
+        ],
+        [
+          "Exception",
+          82
+        ],
+        [
+          "getattr",
+          84
+        ],
+        [
+          "getattr",
+          85
+        ]
+      ],
+      "call_map": {
+        "TypeVar": [
+          13
+        ],
+        "_extract_type_if_optional": [
+          59,
+          77
+        ],
+        "hasattr": [
+          23
+        ],
+        "type": [
+          23,
+          76
+        ],
+        "Exception": [
+          28,
+          64,
+          82
+        ],
+        "_deserialize_dt": [],
+        "get_dollars": [
+          42
+        ],
+        "str": [
+          51
+        ],
+        "from_json": [],
+        "issubclass": [
+          61,
+          79
+        ],
+        "dataclass": [
+          71
+        ],
+        "to_json": [],
+        "getattr": [
+          84,
+          85
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/value_objects/currency.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "Currency",
+        "USD"
+      ],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/value_objects/money.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "currency",
+        "amount",
+        "__eq__",
+        "__lt__",
+        "__add__",
+        "__sub__",
+        "__repr__",
+        "__str__",
+        "__hash__"
+      ],
+      "classes": [
+        "Money"
+      ],
+      "interfaces": [],
+      "imports": [
+        "decimal",
+        "functools",
+        "inspect",
+        "typing",
+        "foundation.value_objects.currency"
+      ],
+      "calls": [
+        [
+          "issubclass",
+          12
+        ],
+        [
+          "ValueError",
+          13
+        ],
+        [
+          "Decimal",
+          15
+        ],
+        [
+          "ValueError",
+          17
+        ],
+        [
+          "ValueError",
+          21
+        ],
+        [
+          "ValueError",
+          23
+        ],
+        [
+          "isinstance",
+          40
+        ],
+        [
+          "isinstance",
+          45
+        ],
+        [
+          "TypeError",
+          46
+        ],
+        [
+          "TypeError",
+          48
+        ],
+        [
+          "isinstance",
+          53
+        ],
+        [
+          "Money",
+          55
+        ],
+        [
+          "isinstance",
+          58
+        ],
+        [
+          "Money",
+          60
+        ],
+        [
+          "repr",
+          63
+        ],
+        [
+          "hash",
+          69
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "issubclass": [
+          12
+        ],
+        "ValueError": [
+          13,
+          17,
+          21,
+          23
+        ],
+        "Decimal": [
+          15
+        ],
+        "currency": [],
+        "amount": [],
+        "__eq__": [],
+        "isinstance": [
+          40,
+          45,
+          53,
+          58
+        ],
+        "__lt__": [],
+        "TypeError": [
+          46,
+          48
+        ],
+        "__add__": [],
+        "Money": [
+          55,
+          60
+        ],
+        "__sub__": [],
+        "__repr__": [],
+        "repr": [
+          63
+        ],
+        "__str__": [],
+        "__hash__": [],
+        "hash": [
+          69
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/value_objects/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "foundation.value_objects.currency",
+        "foundation.value_objects.money"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/value_objects/factories/dollars.py": {
+      "language": "python",
+      "functions": [
+        "get_dollars"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "decimal",
+        "typing",
+        "foundation.value_objects"
+      ],
+      "calls": [
+        [
+          "Money",
+          8
+        ]
+      ],
+      "call_map": {
+        "get_dollars": [],
+        "Money": [
+          8
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/value_objects/factories/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "foundation.value_objects.factories.dollars"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/tests/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/tests/value_objects/test_money.py": {
+      "language": "python",
+      "functions": [
+        "test_invalid_inputs",
+        "test_valid_inputs",
+        "test_repr",
+        "test_str",
+        "test_equality",
+        "test_lt_the_same_currency",
+        "test_lt_different_currency",
+        "test_supports_different_comparison_operators",
+        "test_supports_basic_math_operators_if_the_same_currency",
+        "test_normalizes_whenever_it_can"
+      ],
+      "classes": [
+        "BTC"
+      ],
+      "interfaces": [],
+      "imports": [
+        "decimal",
+        "operator",
+        "typing",
+        "pytest",
+        "foundation.value_objects",
+        "foundation.value_objects.currency"
+      ],
+      "calls": [
+        [
+          "Money",
+          19
+        ],
+        [
+          "Money",
+          24
+        ],
+        [
+          "Money",
+          30
+        ],
+        [
+          "Money",
+          31
+        ],
+        [
+          "repr",
+          35
+        ],
+        [
+          "Money",
+          39
+        ],
+        [
+          "Money",
+          39
+        ],
+        [
+          "str",
+          42
+        ],
+        [
+          "Money",
+          48
+        ],
+        [
+          "Money",
+          48
+        ],
+        [
+          "Money",
+          49
+        ],
+        [
+          "Money",
+          49
+        ],
+        [
+          "Money",
+          50
+        ],
+        [
+          "Money",
+          50
+        ],
+        [
+          "Money",
+          51
+        ],
+        [
+          "Money",
+          51
+        ],
+        [
+          "Money",
+          59
+        ],
+        [
+          "Money",
+          59
+        ],
+        [
+          "Money",
+          64
+        ],
+        [
+          "Money",
+          64
+        ],
+        [
+          "Money",
+          70
+        ],
+        [
+          "Money",
+          70
+        ],
+        [
+          "Money",
+          71
+        ],
+        [
+          "Money",
+          71
+        ],
+        [
+          "Money",
+          72
+        ],
+        [
+          "Money",
+          72
+        ],
+        [
+          "Money",
+          73
+        ],
+        [
+          "Money",
+          73
+        ],
+        [
+          "cmp_operator",
+          79
+        ],
+        [
+          "Money",
+          85
+        ],
+        [
+          "Money",
+          85
+        ],
+        [
+          "Money",
+          85
+        ],
+        [
+          "Money",
+          86
+        ],
+        [
+          "Money",
+          86
+        ],
+        [
+          "Money",
+          86
+        ],
+        [
+          "math_operator",
+          92
+        ],
+        [
+          "Money",
+          96
+        ],
+        [
+          "Decimal",
+          96
+        ],
+        [
+          "Money",
+          96
+        ],
+        [
+          "Money",
+          99
+        ]
+      ],
+      "call_map": {
+        "test_invalid_inputs": [],
+        "Money": [
+          19,
+          24,
+          30,
+          31,
+          39,
+          39,
+          48,
+          48,
+          49,
+          49,
+          50,
+          50,
+          51,
+          51,
+          59,
+          59,
+          64,
+          64,
+          70,
+          70,
+          71,
+          71,
+          72,
+          72,
+          73,
+          73,
+          85,
+          85,
+          85,
+          86,
+          86,
+          86,
+          96,
+          96,
+          99
+        ],
+        "test_valid_inputs": [],
+        "test_repr": [],
+        "repr": [
+          35
+        ],
+        "test_str": [],
+        "str": [
+          42
+        ],
+        "test_equality": [],
+        "test_lt_the_same_currency": [],
+        "test_lt_different_currency": [],
+        "test_supports_different_comparison_operators": [],
+        "cmp_operator": [
+          79
+        ],
+        "test_supports_basic_math_operators_if_the_same_currency": [],
+        "math_operator": [
+          92
+        ],
+        "Decimal": [
+          96
+        ],
+        "test_normalizes_whenever_it_can": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/foundation/foundation/tests/value_objects/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/processes/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/processes/processes/repository.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "get",
+        "save"
+      ],
+      "classes": [
+        "ProcessManagerDataRepo"
+      ],
+      "interfaces": [],
+      "imports": [
+        "json",
+        "typing",
+        "uuid",
+        "sqlalchemy",
+        "sqlalchemy.engine",
+        "foundation",
+        "db_infrastructure"
+      ],
+      "calls": [
+        [
+          "TypeVar",
+          12
+        ],
+        [
+          "Table",
+          15
+        ],
+        [
+          "Column",
+          16
+        ],
+        [
+          "Column",
+          16
+        ],
+        [
+          "cast",
+          28
+        ]
+      ],
+      "call_map": {
+        "TypeVar": [
+          12
+        ],
+        "Table": [
+          15
+        ],
+        "Column": [
+          16,
+          16
+        ],
+        "__init__": [],
+        "get": [],
+        "cast": [
+          28
+        ],
+        "save": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/processes/processes/__init__.py": {
+      "language": "python",
+      "functions": [
+        "__call__",
+        "get_paying_for_won_item",
+        "get_data_repo",
+        "configure"
+      ],
+      "classes": [
+        "Handler",
+        "ProcessManager",
+        "Processes"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "injector",
+        "sqlalchemy.engine",
+        "typing_extensions",
+        "foundation.events",
+        "customer_relationship",
+        "payments",
+        "processes.paying_for_won_item",
+        "processes.repository"
+      ],
+      "calls": [
+        [
+          "PayingForWonItem",
+          40
+        ],
+        [
+          "ProcessManagerDataRepo",
+          44
+        ],
+        [
+          "issubclass",
+          48
+        ],
+        [
+          "AsyncEventHandlerProvider",
+          50
+        ]
+      ],
+      "call_map": {
+        "__call__": [],
+        "get_paying_for_won_item": [],
+        "PayingForWonItem": [
+          40
+        ],
+        "get_data_repo": [],
+        "ProcessManagerDataRepo": [
+          44
+        ],
+        "configure": [],
+        "issubclass": [
+          48
+        ],
+        "AsyncEventHandlerProvider": [
+          50
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/processes/processes/tests/test_paying_for_won_item.py": {
+      "language": "python",
+      "functions": [
+        "mocked_uuid4",
+        "payments_facade_mock",
+        "customer_relationship_mock",
+        "pm_data",
+        "process_manager",
+        "test_should_start_new_payment_upon_auction_ended",
+        "pm_data_waiting_for_payment",
+        "test_should_send_success_email_after_payment",
+        "test_should_timeout"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "typing",
+        "unittest.mock",
+        "uuid",
+        "freezegun",
+        "pytest",
+        "foundation.value_objects.factories",
+        "auctions",
+        "customer_relationship",
+        "payments",
+        "processes.paying_for_won_item",
+        "processes.paying_for_won_item.saga"
+      ],
+      "calls": [
+        [
+          "Mock",
+          27
+        ],
+        [
+          "Mock",
+          32
+        ],
+        [
+          "PayingForWonItemData",
+          37
+        ],
+        [
+          "PayingForWonItem",
+          42
+        ],
+        [
+          "AuctionEnded",
+          53
+        ],
+        [
+          "get_dollars",
+          53
+        ],
+        [
+          "timedelta",
+          65
+        ],
+        [
+          "PayingForWonItemData",
+          72
+        ],
+        [
+          "timedelta",
+          73
+        ],
+        [
+          "get_dollars",
+          73
+        ],
+        [
+          "PaymentCaptured",
+          83
+        ],
+        [
+          "timedelta",
+          99
+        ]
+      ],
+      "call_map": {
+        "mocked_uuid4": [],
+        "payments_facade_mock": [],
+        "Mock": [
+          27,
+          32
+        ],
+        "customer_relationship_mock": [],
+        "pm_data": [],
+        "PayingForWonItemData": [
+          37,
+          72
+        ],
+        "process_manager": [],
+        "PayingForWonItem": [
+          42
+        ],
+        "test_should_start_new_payment_upon_auction_ended": [],
+        "AuctionEnded": [
+          53
+        ],
+        "get_dollars": [
+          53,
+          73
+        ],
+        "timedelta": [
+          65,
+          73,
+          99
+        ],
+        "pm_data_waiting_for_payment": [],
+        "test_should_send_success_email_after_payment": [],
+        "PaymentCaptured": [
+          83
+        ],
+        "test_should_timeout": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/processes/processes/tests/test_repository.py": {
+      "language": "python",
+      "functions": [
+        "sqlalchemy_connect_url",
+        "setup_teardown_tables",
+        "repo",
+        "test_saving_and_reading"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "json",
+        "uuid",
+        "pytest",
+        "sqlalchemy.engine",
+        "foundation.value_objects.factories",
+        "db_infrastructure",
+        "processes.paying_for_won_item",
+        "processes.paying_for_won_item.saga",
+        "processes.repository"
+      ],
+      "calls": [
+        [
+          "datetime",
+          15
+        ],
+        [
+          "ProcessManagerDataRepo",
+          30
+        ],
+        [
+          "PayingForWonItemData",
+          37
+        ],
+        [
+          "UUID",
+          37
+        ],
+        [
+          "PayingForWonItemData",
+          49
+        ],
+        [
+          "UUID",
+          50
+        ],
+        [
+          "get_dollars",
+          53
+        ],
+        [
+          "uuid4",
+          73
+        ],
+        [
+          "type",
+          77
+        ]
+      ],
+      "call_map": {
+        "datetime": [
+          15
+        ],
+        "sqlalchemy_connect_url": [],
+        "setup_teardown_tables": [],
+        "repo": [],
+        "ProcessManagerDataRepo": [
+          30
+        ],
+        "PayingForWonItemData": [
+          37,
+          49
+        ],
+        "UUID": [
+          37,
+          50
+        ],
+        "get_dollars": [
+          53
+        ],
+        "test_saving_and_reading": [],
+        "uuid4": [
+          73
+        ],
+        "type": [
+          77
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/processes/processes/paying_for_won_item/saga_handler.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "__call__",
+        "handle_payment_captured",
+        "handle_beginning",
+        "_run_process_manager"
+      ],
+      "classes": [
+        "PayingForWonItemHandler"
+      ],
+      "interfaces": [],
+      "imports": [
+        "uuid",
+        "injector",
+        "foundation.events",
+        "foundation.locks",
+        "foundation.method_dispatch",
+        "auctions",
+        "payments",
+        "processes.paying_for_won_item",
+        "processes.repository"
+      ],
+      "calls": [
+        [
+          "PayingForWonItemData",
+          38
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "__call__": [],
+        "handle_payment_captured": [],
+        "handle_beginning": [],
+        "PayingForWonItemData": [
+          38
+        ],
+        "_run_process_manager": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/processes/processes/paying_for_won_item/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "processes.paying_for_won_item.saga",
+        "processes.paying_for_won_item.saga_handler"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/processes/processes/paying_for_won_item/saga.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "timeout",
+        "handle",
+        "handle_auction_ended",
+        "handle_payment_captured"
+      ],
+      "classes": [
+        "State",
+        "PayingForWonItemData",
+        "PayingForWonItem"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "datetime",
+        "enum",
+        "typing",
+        "uuid",
+        "foundation.method_dispatch",
+        "foundation.value_objects",
+        "auctions",
+        "customer_relationship",
+        "payments"
+      ],
+      "calls": [
+        [
+          "Exception",
+          44
+        ],
+        [
+          "timedelta",
+          56
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "timeout": [],
+        "handle": [],
+        "Exception": [
+          44
+        ],
+        "handle_auction_ended": [],
+        "timedelta": [
+          56
+        ],
+        "handle_payment_captured": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/customer_relationship/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/customer_relationship/customer_relationship/__init__.py": {
+      "language": "python",
+      "functions": [
+        "facade",
+        "configure",
+        "__init__",
+        "__call__",
+        "__init__",
+        "__call__"
+      ],
+      "classes": [
+        "CustomerRelationship",
+        "BidderHasBeenOverbidHandler",
+        "WinningBidPlacedHandler"
+      ],
+      "interfaces": [],
+      "imports": [
+        "injector",
+        "sqlalchemy.engine",
+        "foundation.events",
+        "auctions",
+        "customer_relationship.config",
+        "customer_relationship.facade",
+        "customer_relationship.models"
+      ],
+      "calls": [
+        [
+          "CustomerRelationshipFacade",
+          25
+        ],
+        [
+          "AsyncEventHandlerProvider",
+          28
+        ],
+        [
+          "AsyncEventHandlerProvider",
+          29
+        ]
+      ],
+      "call_map": {
+        "facade": [],
+        "CustomerRelationshipFacade": [
+          25
+        ],
+        "configure": [],
+        "AsyncEventHandlerProvider": [
+          28,
+          29
+        ],
+        "__init__": [],
+        "__call__": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/customer_relationship/customer_relationship/facade.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "create_customer",
+        "update_customer",
+        "send_email_about_overbid",
+        "send_email_about_winning",
+        "send_email_after_successful_payment",
+        "_get_customer",
+        "_send"
+      ],
+      "classes": [
+        "CustomerRelationshipFacade"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "sqlalchemy.engine",
+        "foundation.value_objects",
+        "customer_relationship",
+        "customer_relationship.config",
+        "customer_relationship.email_sender",
+        "customer_relationship.models"
+      ],
+      "calls": [
+        [
+          "EmailSender",
+          15
+        ],
+        [
+          "dict",
+          40
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "EmailSender": [
+          15
+        ],
+        "create_customer": [],
+        "update_customer": [],
+        "send_email_about_overbid": [],
+        "send_email_about_winning": [],
+        "send_email_after_successful_payment": [],
+        "_get_customer": [],
+        "dict": [
+          40
+        ],
+        "_send": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/customer_relationship/customer_relationship/email_sender.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "send"
+      ],
+      "classes": [
+        "EmailSender"
+      ],
+      "interfaces": [],
+      "imports": [
+        "email.mime.multipart",
+        "email.mime.text",
+        "smtplib",
+        "customer_relationship.config",
+        "customer_relationship.emails"
+      ],
+      "calls": [
+        [
+          "MIMEMultipart",
+          16
+        ],
+        [
+          "MIMEText",
+          20
+        ],
+        [
+          "MIMEText",
+          21
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "send": [],
+        "MIMEMultipart": [
+          16
+        ],
+        "MIMEText": [
+          20,
+          21
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/customer_relationship/customer_relationship/config.py": {
+      "language": "python",
+      "functions": [
+        "formatted_from"
+      ],
+      "classes": [
+        "CustomerRelationshipConfig"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "typing"
+      ],
+      "calls": [
+        [
+          "dataclass",
+          5
+        ]
+      ],
+      "call_map": {
+        "dataclass": [
+          5
+        ],
+        "formatted_from": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/customer_relationship/customer_relationship/models.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "sqlalchemy",
+        "db_infrastructure"
+      ],
+      "calls": [
+        [
+          "Table",
+          5
+        ],
+        [
+          "Column",
+          6
+        ],
+        [
+          "Column",
+          6
+        ],
+        [
+          "String",
+          6
+        ]
+      ],
+      "call_map": {
+        "Table": [
+          5
+        ],
+        "Column": [
+          6,
+          6
+        ],
+        "String": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/customer_relationship/customer_relationship/emails/__init__.py": {
+      "language": "python",
+      "functions": [
+        "title",
+        "html",
+        "text",
+        "title",
+        "text",
+        "html",
+        "title",
+        "text",
+        "html",
+        "title",
+        "text",
+        "html"
+      ],
+      "classes": [
+        "Email",
+        "Overbid",
+        "Winning",
+        "PaymentSuccessful"
+      ],
+      "interfaces": [],
+      "imports": [
+        "abc",
+        "dataclasses",
+        "foundation.value_objects"
+      ],
+      "calls": [],
+      "call_map": {
+        "title": [],
+        "html": [],
+        "text": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/customer_relationship/customer_relationship/tests/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/auctions_infrastructure/__init__.py": {
+      "language": "python",
+      "functions": [
+        "get_active_auctions",
+        "get_single_auction",
+        "auctions_repo"
+      ],
+      "classes": [
+        "AuctionsInfrastructure"
+      ],
+      "interfaces": [],
+      "imports": [
+        "injector",
+        "sqlalchemy.engine",
+        "foundation.events",
+        "auctions",
+        "auctions_infrastructure.models",
+        "auctions_infrastructure.queries",
+        "auctions_infrastructure.repositories"
+      ],
+      "calls": [
+        [
+          "SqlGetActiveAuctions",
+          23
+        ],
+        [
+          "SqlGetSingleAuction",
+          27
+        ],
+        [
+          "SqlAlchemyAuctionsRepo",
+          31
+        ]
+      ],
+      "call_map": {
+        "get_active_auctions": [],
+        "SqlGetActiveAuctions": [
+          23
+        ],
+        "get_single_auction": [],
+        "SqlGetSingleAuction": [
+          27
+        ],
+        "auctions_repo": [],
+        "SqlAlchemyAuctionsRepo": [
+          31
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/auctions_infrastructure/models.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "sqlalchemy",
+        "db_infrastructure"
+      ],
+      "calls": [
+        [
+          "Table",
+          5
+        ],
+        [
+          "Column",
+          8
+        ],
+        [
+          "Column",
+          9
+        ],
+        [
+          "String",
+          9
+        ],
+        [
+          "Column",
+          10
+        ],
+        [
+          "Column",
+          11
+        ],
+        [
+          "Column",
+          12
+        ],
+        [
+          "Column",
+          13
+        ],
+        [
+          "Table",
+          17
+        ],
+        [
+          "Column",
+          20
+        ],
+        [
+          "Column",
+          21
+        ],
+        [
+          "Column",
+          22
+        ],
+        [
+          "Column",
+          23
+        ],
+        [
+          "ForeignKey",
+          23
+        ]
+      ],
+      "call_map": {
+        "Table": [
+          5,
+          17
+        ],
+        "Column": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          20,
+          21,
+          22,
+          23
+        ],
+        "String": [
+          9
+        ],
+        "ForeignKey": [
+          23
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/auctions_infrastructure/tests/conftest.py": {
+      "language": "python",
+      "functions": [
+        "ends_at",
+        "past_date",
+        "event_bus_mock"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "unittest.mock",
+        "pytest",
+        "pytz",
+        "foundation.events"
+      ],
+      "calls": [
+        [
+          "timedelta",
+          12
+        ],
+        [
+          "timedelta",
+          17
+        ],
+        [
+          "Mock",
+          22
+        ]
+      ],
+      "call_map": {
+        "ends_at": [],
+        "timedelta": [
+          12,
+          17
+        ],
+        "past_date": [],
+        "event_bus_mock": [],
+        "Mock": [
+          22
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/auctions_infrastructure/tests/repositories/test_sqlalchemy_auctions_repository.py": {
+      "language": "python",
+      "functions": [
+        "sqlalchemy_connect_url",
+        "setup_teardown_tables",
+        "winning_bid_amount",
+        "bidder_id",
+        "another_bidder_id",
+        "expired_auction",
+        "auction_model_with_a_bid",
+        "bid_model",
+        "test_gets_existing_auction",
+        "test_saves_auction_changes",
+        "test_removes_withdrawn_bids",
+        "test_AuctionsRepo_UponSavingAuction_PostsPendingEventsViaEventBus",
+        "__init__",
+        "post",
+        "event_bus_stub",
+        "test_AuctionsRepo_UponSavingAuction_ClearsPendingEvents"
+      ],
+      "classes": [
+        "EventBusStub"
+      ],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "decimal",
+        "unittest.mock",
+        "pytest",
+        "sqlalchemy",
+        "sqlalchemy.engine",
+        "foundation.events",
+        "foundation.value_objects.factories",
+        "auctions.domain.entities",
+        "auctions_infrastructure",
+        "auctions_infrastructure.repositories",
+        "db_infrastructure"
+      ],
+      "calls": [
+        [
+          "Decimal",
+          30
+        ],
+        [
+          "Decimal",
+          50
+        ],
+        [
+          "Decimal",
+          51
+        ],
+        [
+          "SqlAlchemyAuctionsRepo",
+          93
+        ],
+        [
+          "get_dollars",
+          97
+        ],
+        [
+          "get_dollars",
+          98
+        ],
+        [
+          "set",
+          100
+        ],
+        [
+          "Bid",
+          100
+        ],
+        [
+          "get_dollars",
+          100
+        ],
+        [
+          "get_dollars",
+          112
+        ],
+        [
+          "Auction",
+          113
+        ],
+        [
+          "get_dollars",
+          116
+        ],
+        [
+          "Bid",
+          119
+        ],
+        [
+          "get_dollars",
+          119
+        ],
+        [
+          "Bid",
+          120
+        ],
+        [
+          "SqlAlchemyAuctionsRepo",
+          125
+        ],
+        [
+          "select",
+          127
+        ],
+        [
+          "select",
+          128
+        ],
+        [
+          "Auction",
+          137
+        ],
+        [
+          "get_dollars",
+          140
+        ],
+        [
+          "Bid",
+          142
+        ],
+        [
+          "get_dollars",
+          142
+        ],
+        [
+          "SqlAlchemyAuctionsRepo",
+          147
+        ],
+        [
+          "select",
+          149
+        ],
+        [
+          "SqlAlchemyAuctionsRepo",
+          156
+        ],
+        [
+          "get_dollars",
+          158
+        ],
+        [
+          "EventBusStub",
+          175
+        ],
+        [
+          "SqlAlchemyAuctionsRepo",
+          182
+        ],
+        [
+          "get_dollars",
+          184
+        ],
+        [
+          "len",
+          188
+        ]
+      ],
+      "call_map": {
+        "sqlalchemy_connect_url": [],
+        "setup_teardown_tables": [],
+        "winning_bid_amount": [],
+        "Decimal": [
+          30,
+          50,
+          51
+        ],
+        "bidder_id": [],
+        "another_bidder_id": [],
+        "expired_auction": [],
+        "auction_model_with_a_bid": [],
+        "bid_model": [],
+        "test_gets_existing_auction": [],
+        "SqlAlchemyAuctionsRepo": [
+          93,
+          125,
+          147,
+          156,
+          182
+        ],
+        "get_dollars": [
+          97,
+          98,
+          100,
+          112,
+          116,
+          119,
+          140,
+          142,
+          158,
+          184
+        ],
+        "set": [
+          100
+        ],
+        "Bid": [
+          100,
+          119,
+          120,
+          142
+        ],
+        "test_saves_auction_changes": [],
+        "Auction": [
+          113,
+          137
+        ],
+        "select": [
+          127,
+          128,
+          149
+        ],
+        "test_removes_withdrawn_bids": [],
+        "test_AuctionsRepo_UponSavingAuction_PostsPendingEventsViaEventBus": [],
+        "__init__": [],
+        "post": [],
+        "event_bus_stub": [],
+        "EventBusStub": [
+          175
+        ],
+        "test_AuctionsRepo_UponSavingAuction_ClearsPendingEvents": [],
+        "len": [
+          188
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/auctions_infrastructure/queries/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "auctions_infrastructure.queries.auctions"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/auctions_infrastructure/queries/base.py": {
+      "language": "python",
+      "functions": [
+        "__init__"
+      ],
+      "classes": [
+        "SqlQuery"
+      ],
+      "interfaces": [],
+      "imports": [
+        "sqlalchemy.engine"
+      ],
+      "calls": [],
+      "call_map": {
+        "__init__": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/auctions_infrastructure/queries/auctions.py": {
+      "language": "python",
+      "functions": [
+        "query",
+        "query",
+        "_row_to_dto"
+      ],
+      "classes": [
+        "SqlGetActiveAuctions",
+        "SqlGetSingleAuction"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "sqlalchemy",
+        "sqlalchemy.engine",
+        "foundation.value_objects.factories",
+        "auctions.application.queries",
+        "auctions_infrastructure",
+        "auctions_infrastructure.queries.base"
+      ],
+      "calls": [
+        [
+          "_row_to_dto",
+          16
+        ],
+        [
+          "_row_to_dto",
+          23
+        ],
+        [
+          "AuctionDto",
+          27
+        ],
+        [
+          "get_dollars",
+          30
+        ],
+        [
+          "get_dollars",
+          31
+        ]
+      ],
+      "call_map": {
+        "query": [],
+        "_row_to_dto": [
+          16,
+          23
+        ],
+        "AuctionDto": [
+          27
+        ],
+        "get_dollars": [
+          30,
+          31
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/auctions_infrastructure/repositories/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "auctions_infrastructure.repositories.auctions"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions_infrastructure/auctions_infrastructure/repositories/auctions.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "get",
+        "_row_to_entity",
+        "save"
+      ],
+      "classes": [
+        "SqlAlchemyAuctionsRepo"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "pytz",
+        "sqlalchemy.engine",
+        "foundation.events",
+        "foundation.value_objects.factories",
+        "auctions.application.repositories",
+        "auctions.domain.entities",
+        "auctions.domain.value_objects",
+        "auctions_infrastructure"
+      ],
+      "calls": [
+        [
+          "Exception",
+          23
+        ],
+        [
+          "Bid",
+          29
+        ],
+        [
+          "get_dollars",
+          29
+        ],
+        [
+          "Auction",
+          30
+        ],
+        [
+          "get_dollars",
+          33
+        ],
+        [
+          "dict",
+          49
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "get": [],
+        "Exception": [
+          23
+        ],
+        "_row_to_entity": [],
+        "Bid": [
+          29
+        ],
+        "get_dollars": [
+          29,
+          33
+        ],
+        "Auction": [
+          30
+        ],
+        "save": [],
+        "dict": [
+          49
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping_infrastructure/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping_infrastructure/shipping_infrastructure/__init__.py": {
+      "language": "python",
+      "functions": [
+        "address_repo"
+      ],
+      "classes": [
+        "ShippingInfrastructure"
+      ],
+      "interfaces": [],
+      "imports": [
+        "injector",
+        "shipping",
+        "shipping_infrastructure.models",
+        "shipping_infrastructure.repositories"
+      ],
+      "calls": [
+        [
+          "FakeAddressRepository",
+          25
+        ]
+      ],
+      "call_map": {
+        "address_repo": [],
+        "FakeAddressRepository": [
+          25
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping_infrastructure/shipping_infrastructure/models.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "sqlalchemy",
+        "db_infrastructure",
+        "shipping.domain.value_objects"
+      ],
+      "calls": [
+        [
+          "Table",
+          6
+        ],
+        [
+          "Column",
+          9
+        ],
+        [
+          "Column",
+          10
+        ],
+        [
+          "String",
+          10
+        ],
+        [
+          "Column",
+          11
+        ],
+        [
+          "Column",
+          12
+        ],
+        [
+          "String",
+          12
+        ],
+        [
+          "Column",
+          13
+        ],
+        [
+          "String",
+          13
+        ],
+        [
+          "Column",
+          14
+        ],
+        [
+          "String",
+          14
+        ],
+        [
+          "Column",
+          15
+        ],
+        [
+          "String",
+          15
+        ],
+        [
+          "Column",
+          16
+        ],
+        [
+          "String",
+          16
+        ],
+        [
+          "Column",
+          17
+        ],
+        [
+          "String",
+          17
+        ],
+        [
+          "Column",
+          18
+        ],
+        [
+          "Enum",
+          18
+        ]
+      ],
+      "call_map": {
+        "Table": [
+          6
+        ],
+        "Column": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "String": [
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "Enum": [
+          18
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping_infrastructure/shipping_infrastructure/tests/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping_infrastructure/shipping_infrastructure/tests/repositories/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping_infrastructure/shipping_infrastructure/queries/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping_infrastructure/shipping_infrastructure/repositories/address.py": {
+      "language": "python",
+      "functions": [
+        "get"
+      ],
+      "classes": [
+        "FakeAddressRepository"
+      ],
+      "interfaces": [],
+      "imports": [
+        "uuid",
+        "faker",
+        "shipping",
+        "shipping.domain.entities",
+        "shipping.domain.value_objects"
+      ],
+      "calls": [
+        [
+          "Address",
+          13
+        ]
+      ],
+      "call_map": {
+        "get": [],
+        "Address": [
+          13
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/shipping_infrastructure/shipping_infrastructure/repositories/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "shipping_infrastructure.repositories.address"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/db_infrastructure/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/db_infrastructure/db_infrastructure/__init__.py": {
+      "language": "python",
+      "functions": [
+        "load_dialect_impl",
+        "process_bind_param",
+        "process_result_value"
+      ],
+      "classes": [
+        "GUID"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "uuid",
+        "sqlalchemy",
+        "sqlalchemy.dialects.postgresql",
+        "sqlalchemy.ext.declarative",
+        "sqlalchemy.types"
+      ],
+      "calls": [
+        [
+          "MetaData",
+          9
+        ],
+        [
+          "declarative_base",
+          10
+        ],
+        [
+          "UUID",
+          26
+        ],
+        [
+          "CHAR",
+          28
+        ],
+        [
+          "str",
+          34
+        ],
+        [
+          "isinstance",
+          36
+        ],
+        [
+          "isinstance",
+          46
+        ]
+      ],
+      "call_map": {
+        "MetaData": [
+          9
+        ],
+        "declarative_base": [
+          10
+        ],
+        "load_dialect_impl": [],
+        "UUID": [
+          26
+        ],
+        "CHAR": [
+          28
+        ],
+        "process_bind_param": [],
+        "str": [
+          34
+        ],
+        "isinstance": [
+          36,
+          46
+        ],
+        "process_result_value": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/db_infrastructure/db_infrastructure/tests/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/__init__.py": {
+      "language": "python",
+      "functions": [
+        "placing_bid_uc",
+        "withdrawing_bids_uc",
+        "ending_auction_uc",
+        "beginning_auction_uc"
+      ],
+      "classes": [
+        "Auctions"
+      ],
+      "interfaces": [],
+      "imports": [
+        "injector",
+        "auctions.application.queries",
+        "auctions.application.repositories",
+        "auctions.application.use_cases",
+        "auctions.domain.events",
+        "auctions.domain.value_objects"
+      ],
+      "calls": [
+        [
+          "PlacingBid",
+          55
+        ],
+        [
+          "WithdrawingBids",
+          59
+        ],
+        [
+          "EndingAuction",
+          63
+        ],
+        [
+          "BeginningAuction",
+          67
+        ]
+      ],
+      "call_map": {
+        "placing_bid_uc": [],
+        "PlacingBid": [
+          55
+        ],
+        "withdrawing_bids_uc": [],
+        "WithdrawingBids": [
+          59
+        ],
+        "ending_auction_uc": [],
+        "EndingAuction": [
+          63
+        ],
+        "beginning_auction_uc": [],
+        "BeginningAuction": [
+          67
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/domain/value_objects.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/domain/events.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "BidderHasBeenOverbid",
+        "WinningBidPlaced",
+        "AuctionEnded",
+        "AuctionBegan"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "typing",
+        "foundation.events",
+        "foundation.value_objects",
+        "auctions.domain.value_objects"
+      ],
+      "calls": [
+        [
+          "dataclass",
+          10
+        ],
+        [
+          "dataclass",
+          18
+        ],
+        [
+          "dataclass",
+          26
+        ],
+        [
+          "dataclass",
+          34
+        ]
+      ],
+      "call_map": {
+        "dataclass": [
+          10,
+          18,
+          26,
+          34
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/domain/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/domain/exceptions.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "BidOnEndedAuction",
+        "AuctionHasNotEnded",
+        "AuctionAlreadyEnded",
+        "AuctionEndingInThePast"
+      ],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/domain/entities/auction.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "place_bid",
+        "_should_end",
+        "current_price",
+        "winners",
+        "_highest_bid",
+        "withdraw_bids",
+        "withdrawn_bids_ids",
+        "end_auction",
+        "create",
+        "__str__",
+        "__eq__"
+      ],
+      "classes": [
+        "Auction"
+      ],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "typing",
+        "foundation.events",
+        "foundation.value_objects",
+        "auctions.domain.entities.bid",
+        "auctions.domain.events",
+        "auctions.domain.exceptions",
+        "auctions.domain.value_objects"
+      ],
+      "calls": [
+        [
+          "super",
+          17
+        ],
+        [
+          "sorted",
+          21
+        ],
+        [
+          "Bid",
+          32
+        ],
+        [
+          "WinningBidPlaced",
+          33
+        ],
+        [
+          "BidderHasBeenOverbid",
+          35
+        ],
+        [
+          "AuctionEnded",
+          77
+        ],
+        [
+          "Auction",
+          81
+        ],
+        [
+          "AuctionBegan",
+          82
+        ],
+        [
+          "isinstance",
+          89
+        ],
+        [
+          "vars",
+          89
+        ],
+        [
+          "vars",
+          89
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "super": [
+          17
+        ],
+        "sorted": [
+          21
+        ],
+        "place_bid": [],
+        "Bid": [
+          32
+        ],
+        "WinningBidPlaced": [
+          33
+        ],
+        "BidderHasBeenOverbid": [
+          35
+        ],
+        "_should_end": [],
+        "current_price": [],
+        "winners": [],
+        "_highest_bid": [],
+        "withdraw_bids": [],
+        "withdrawn_bids_ids": [],
+        "end_auction": [],
+        "AuctionEnded": [
+          77
+        ],
+        "create": [],
+        "Auction": [
+          81
+        ],
+        "AuctionBegan": [
+          82
+        ],
+        "__str__": [],
+        "__eq__": [],
+        "isinstance": [
+          89
+        ],
+        "vars": [
+          89,
+          89
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/domain/entities/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "auctions.domain.entities.auction",
+        "auctions.domain.entities.bid"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/domain/entities/bid.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "Bid"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "typing",
+        "foundation.value_objects",
+        "auctions.domain.value_objects"
+      ],
+      "calls": [
+        [
+          "dataclass",
+          9
+        ]
+      ],
+      "call_map": {
+        "dataclass": [
+          9
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/test_bidding.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "present",
+        "output_boundary",
+        "auction",
+        "auction_id",
+        "auction_title",
+        "event_bus",
+        "auctions_repo",
+        "place_bid_uc",
+        "beginning_auction_uc",
+        "test_Auction_FirstBidHigherThanIntialPrice_IsWinning",
+        "test_Auction_BidLowerThanCurrentPrice_IsLosing",
+        "test_Auction_Overbid_IsWinning",
+        "test_Auction_OverbidByWinner_IsWinning",
+        "test_Auction_FirstBid_EmitsEvent",
+        "test_Auction_OverbidFromOtherBidder_EmitsEvents",
+        "test_Auction_OverbidFromOtherBidder_EmitsEvent",
+        "test_Auction_OverbidFromWinner_EmitsWinningBidEventOnly",
+        "test_PlacingBid_BiddingOnEndedAuction_RaisesException"
+      ],
+      "classes": [
+        "PlacingBidOutputBoundaryFake"
+      ],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "typing",
+        "unittest.mock",
+        "freezegun",
+        "pytest",
+        "pytz",
+        "foundation.events",
+        "foundation.value_objects.factories",
+        "auctions",
+        "auctions.application.repositories",
+        "auctions.application.use_cases.beginning_auction",
+        "auctions.application.use_cases.placing_bid",
+        "auctions.domain.entities",
+        "auctions.domain.exceptions",
+        "auctions.domain.value_objects",
+        "auctions.tests.factories",
+        "auctions.tests.in_memory_repo"
+      ],
+      "calls": [
+        [
+          "PlacingBidOutputBoundaryFake",
+          33
+        ],
+        [
+          "AuctionFactory",
+          38
+        ],
+        [
+          "Mock",
+          53
+        ],
+        [
+          "InMemoryAuctionsRepo",
+          58
+        ],
+        [
+          "PlacingBid",
+          66
+        ],
+        [
+          "BeginningAuction",
+          71
+        ],
+        [
+          "PlacingBidInputDto",
+          77
+        ],
+        [
+          "get_dollars",
+          77
+        ],
+        [
+          "PlacingBidOutputDto",
+          79
+        ],
+        [
+          "get_dollars",
+          79
+        ],
+        [
+          "PlacingBidInputDto",
+          86
+        ],
+        [
+          "get_dollars",
+          86
+        ],
+        [
+          "PlacingBidOutputDto",
+          88
+        ],
+        [
+          "get_dollars",
+          88
+        ],
+        [
+          "PlacingBidInputDto",
+          94
+        ],
+        [
+          "get_dollars",
+          94
+        ],
+        [
+          "PlacingBidInputDto",
+          96
+        ],
+        [
+          "get_dollars",
+          96
+        ],
+        [
+          "PlacingBidOutputDto",
+          98
+        ],
+        [
+          "get_dollars",
+          98
+        ],
+        [
+          "PlacingBidInputDto",
+          104
+        ],
+        [
+          "get_dollars",
+          104
+        ],
+        [
+          "PlacingBidInputDto",
+          106
+        ],
+        [
+          "get_dollars",
+          106
+        ],
+        [
+          "PlacingBidOutputDto",
+          108
+        ],
+        [
+          "get_dollars",
+          108
+        ],
+        [
+          "PlacingBidInputDto",
+          114
+        ],
+        [
+          "get_dollars",
+          114
+        ],
+        [
+          "WinningBidPlaced",
+          116
+        ],
+        [
+          "get_dollars",
+          116
+        ],
+        [
+          "timedelta",
+          124
+        ],
+        [
+          "BeginningAuctionInputDto",
+          125
+        ],
+        [
+          "get_dollars",
+          125
+        ],
+        [
+          "PlacingBidInputDto",
+          126
+        ],
+        [
+          "get_dollars",
+          126
+        ],
+        [
+          "PlacingBidInputDto",
+          129
+        ],
+        [
+          "get_dollars",
+          129
+        ],
+        [
+          "call",
+          133
+        ],
+        [
+          "WinningBidPlaced",
+          133
+        ],
+        [
+          "get_dollars",
+          133
+        ],
+        [
+          "call",
+          134
+        ],
+        [
+          "BidderHasBeenOverbid",
+          134
+        ],
+        [
+          "get_dollars",
+          134
+        ],
+        [
+          "PlacingBidInputDto",
+          144
+        ],
+        [
+          "get_dollars",
+          144
+        ],
+        [
+          "PlacingBidInputDto",
+          147
+        ],
+        [
+          "get_dollars",
+          147
+        ],
+        [
+          "call",
+          151
+        ],
+        [
+          "WinningBidPlaced",
+          151
+        ],
+        [
+          "get_dollars",
+          151
+        ],
+        [
+          "call",
+          152
+        ],
+        [
+          "BidderHasBeenOverbid",
+          152
+        ],
+        [
+          "get_dollars",
+          152
+        ],
+        [
+          "PlacingBidInputDto",
+          162
+        ],
+        [
+          "get_dollars",
+          162
+        ],
+        [
+          "PlacingBidInputDto",
+          165
+        ],
+        [
+          "get_dollars",
+          165
+        ],
+        [
+          "WinningBidPlaced",
+          167
+        ],
+        [
+          "get_dollars",
+          167
+        ],
+        [
+          "timedelta",
+          173
+        ],
+        [
+          "freeze_time",
+          174
+        ],
+        [
+          "BeginningAuctionInputDto",
+          176
+        ],
+        [
+          "get_dollars",
+          176
+        ],
+        [
+          "timedelta",
+          176
+        ],
+        [
+          "PlacingBidInputDto",
+          180
+        ],
+        [
+          "get_dollars",
+          180
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "present": [],
+        "output_boundary": [],
+        "PlacingBidOutputBoundaryFake": [
+          33
+        ],
+        "auction": [],
+        "AuctionFactory": [
+          38
+        ],
+        "auction_id": [],
+        "auction_title": [],
+        "event_bus": [],
+        "Mock": [
+          53
+        ],
+        "auctions_repo": [],
+        "InMemoryAuctionsRepo": [
+          58
+        ],
+        "place_bid_uc": [],
+        "PlacingBid": [
+          66
+        ],
+        "beginning_auction_uc": [],
+        "BeginningAuction": [
+          71
+        ],
+        "test_Auction_FirstBidHigherThanIntialPrice_IsWinning": [],
+        "PlacingBidInputDto": [
+          77,
+          86,
+          94,
+          96,
+          104,
+          106,
+          114,
+          126,
+          129,
+          144,
+          147,
+          162,
+          165,
+          180
+        ],
+        "get_dollars": [
+          77,
+          79,
+          86,
+          88,
+          94,
+          96,
+          98,
+          104,
+          106,
+          108,
+          114,
+          116,
+          125,
+          126,
+          129,
+          133,
+          134,
+          144,
+          147,
+          151,
+          152,
+          162,
+          165,
+          167,
+          176,
+          180
+        ],
+        "PlacingBidOutputDto": [
+          79,
+          88,
+          98,
+          108
+        ],
+        "test_Auction_BidLowerThanCurrentPrice_IsLosing": [],
+        "test_Auction_Overbid_IsWinning": [],
+        "test_Auction_OverbidByWinner_IsWinning": [],
+        "test_Auction_FirstBid_EmitsEvent": [],
+        "WinningBidPlaced": [
+          116,
+          133,
+          151,
+          167
+        ],
+        "test_Auction_OverbidFromOtherBidder_EmitsEvents": [],
+        "timedelta": [
+          124,
+          173,
+          176
+        ],
+        "BeginningAuctionInputDto": [
+          125,
+          176
+        ],
+        "call": [
+          133,
+          134,
+          151,
+          152
+        ],
+        "BidderHasBeenOverbid": [
+          134,
+          152
+        ],
+        "test_Auction_OverbidFromOtherBidder_EmitsEvent": [],
+        "test_Auction_OverbidFromWinner_EmitsWinningBidEventOnly": [],
+        "test_PlacingBid_BiddingOnEndedAuction_RaisesException": [],
+        "freeze_time": [
+          174
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/factories.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [
+        "AuctionFactory",
+        "Meta"
+      ],
+      "interfaces": [],
+      "imports": [
+        "factory",
+        "foundation.value_objects.factories",
+        "auctions.domain.entities"
+      ],
+      "calls": [
+        [
+          "get_dollars",
+          15
+        ]
+      ],
+      "call_map": {
+        "get_dollars": [
+          15
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/test_beginning_auction.py": {
+      "language": "python",
+      "functions": [
+        "event_bus_mock",
+        "repo",
+        "beginning_auction_uc",
+        "test_BeginningAuction_SocksFor10DollarsEndingInFuture_emitsEvent",
+        "test_BeginningAuction_EndsAtInThePast_raisesException"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "unittest.mock",
+        "pytest",
+        "foundation.events",
+        "foundation.value_objects.factories",
+        "auctions",
+        "auctions.application.use_cases.beginning_auction",
+        "auctions.domain.exceptions",
+        "auctions.tests.in_memory_repo"
+      ],
+      "calls": [
+        [
+          "Mock",
+          17
+        ],
+        [
+          "InMemoryAuctionsRepo",
+          22
+        ],
+        [
+          "BeginningAuction",
+          27
+        ],
+        [
+          "BeginningAuctionInputDto",
+          33
+        ],
+        [
+          "get_dollars",
+          33
+        ],
+        [
+          "timedelta",
+          33
+        ],
+        [
+          "AuctionBegan",
+          36
+        ],
+        [
+          "get_dollars",
+          36
+        ],
+        [
+          "timedelta",
+          40
+        ],
+        [
+          "BeginningAuctionInputDto",
+          42
+        ],
+        [
+          "get_dollars",
+          42
+        ]
+      ],
+      "call_map": {
+        "event_bus_mock": [],
+        "Mock": [
+          17
+        ],
+        "repo": [],
+        "InMemoryAuctionsRepo": [
+          22
+        ],
+        "beginning_auction_uc": [],
+        "BeginningAuction": [
+          27
+        ],
+        "test_BeginningAuction_SocksFor10DollarsEndingInFuture_emitsEvent": [],
+        "BeginningAuctionInputDto": [
+          33,
+          42
+        ],
+        "get_dollars": [
+          33,
+          36,
+          42
+        ],
+        "timedelta": [
+          33,
+          40
+        ],
+        "AuctionBegan": [
+          36
+        ],
+        "test_BeginningAuction_EndsAtInThePast_raisesException": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/in_memory_repo.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "get",
+        "save"
+      ],
+      "classes": [
+        "InMemoryAuctionsRepo"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "foundation.events",
+        "auctions.application.repositories",
+        "auctions.domain.entities",
+        "auctions.domain.value_objects"
+      ],
+      "calls": [],
+      "call_map": {
+        "__init__": [],
+        "get": [],
+        "save": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/domain/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/domain/entities/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/domain/entities/test_auction.py": {
+      "language": "python",
+      "functions": [
+        "yesterday",
+        "test_should_use_starting_price_as_current_price_for_empty_bids_list",
+        "test_should_return_highest_bid_for_current_price",
+        "test_should_return_no_winners_for_empty_bids_list",
+        "test_should_return_highest_bids_user_id_for_winners_list",
+        "test_should_win_auction_if_is_the_only_bidder_above_starting_price",
+        "test_should_not_be_winning_auction_if_bids_below_starting_price",
+        "test_should_withdraw_the_only_bid",
+        "test_should_add_withdrawn_bids_ids_to_separate_list",
+        "test_should_not_be_winning_if_bid_lower_than_current_price",
+        "test_should_not_allow_placing_bids_for_ended_auction",
+        "test_should_emit_event_upon_overbid",
+        "test_should_emit_winning_event_if_the_first_offer",
+        "test_should_emit_winning_if_overbids",
+        "test_should_emit_auction_ended",
+        "test_should_emit_event_with_none_winner_if_no_winners",
+        "test_should_raise_if_auction_has_not_been_ended",
+        "test_EndedAuction_PlacingBid_RaisesException",
+        "test_EndedAuction_Ending_RaisesException"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "pytest",
+        "foundation.value_objects.factories",
+        "auctions.domain.entities",
+        "auctions.domain.events",
+        "auctions.domain.exceptions",
+        "auctions.tests.factories"
+      ],
+      "calls": [
+        [
+          "timedelta",
+          15
+        ],
+        [
+          "AuctionFactory",
+          19
+        ],
+        [
+          "AuctionFactory",
+          25
+        ],
+        [
+          "Bid",
+          26
+        ],
+        [
+          "get_dollars",
+          26
+        ],
+        [
+          "Bid",
+          26
+        ],
+        [
+          "get_dollars",
+          26
+        ],
+        [
+          "get_dollars",
+          29
+        ],
+        [
+          "AuctionFactory",
+          33
+        ],
+        [
+          "AuctionFactory",
+          39
+        ],
+        [
+          "Bid",
+          41
+        ],
+        [
+          "get_dollars",
+          41
+        ],
+        [
+          "Bid",
+          42
+        ],
+        [
+          "get_dollars",
+          42
+        ],
+        [
+          "Bid",
+          43
+        ],
+        [
+          "get_dollars",
+          43
+        ],
+        [
+          "AuctionFactory",
+          51
+        ],
+        [
+          "get_dollars",
+          53
+        ],
+        [
+          "AuctionFactory",
+          59
+        ],
+        [
+          "get_dollars",
+          61
+        ],
+        [
+          "AuctionFactory",
+          67
+        ],
+        [
+          "Bid",
+          67
+        ],
+        [
+          "get_dollars",
+          67
+        ],
+        [
+          "AuctionFactory",
+          76
+        ],
+        [
+          "Bid",
+          76
+        ],
+        [
+          "get_dollars",
+          76
+        ],
+        [
+          "AuctionFactory",
+          84
+        ],
+        [
+          "Bid",
+          84
+        ],
+        [
+          "get_dollars",
+          84
+        ],
+        [
+          "get_dollars",
+          87
+        ],
+        [
+          "AuctionFactory",
+          93
+        ],
+        [
+          "get_dollars",
+          96
+        ],
+        [
+          "Bid",
+          100
+        ],
+        [
+          "get_dollars",
+          100
+        ],
+        [
+          "AuctionFactory",
+          101
+        ],
+        [
+          "get_dollars",
+          103
+        ],
+        [
+          "BidderHasBeenOverbid",
+          106
+        ],
+        [
+          "AuctionFactory",
+          111
+        ],
+        [
+          "get_dollars",
+          112
+        ],
+        [
+          "WinningBidPlaced",
+          116
+        ],
+        [
+          "AuctionFactory",
+          120
+        ],
+        [
+          "Bid",
+          120
+        ],
+        [
+          "get_dollars",
+          120
+        ],
+        [
+          "get_dollars",
+          121
+        ],
+        [
+          "WinningBidPlaced",
+          125
+        ],
+        [
+          "BidderHasBeenOverbid",
+          126
+        ],
+        [
+          "AuctionFactory",
+          131
+        ],
+        [
+          "Bid",
+          131
+        ],
+        [
+          "get_dollars",
+          131
+        ],
+        [
+          "AuctionEnded",
+          135
+        ],
+        [
+          "AuctionFactory",
+          140
+        ],
+        [
+          "AuctionEnded",
+          144
+        ],
+        [
+          "AuctionFactory",
+          149
+        ],
+        [
+          "AuctionFactory",
+          156
+        ],
+        [
+          "get_dollars",
+          160
+        ],
+        [
+          "AuctionFactory",
+          164
+        ]
+      ],
+      "call_map": {
+        "yesterday": [],
+        "timedelta": [
+          15
+        ],
+        "test_should_use_starting_price_as_current_price_for_empty_bids_list": [],
+        "AuctionFactory": [
+          19,
+          25,
+          33,
+          39,
+          51,
+          59,
+          67,
+          76,
+          84,
+          93,
+          101,
+          111,
+          120,
+          131,
+          140,
+          149,
+          156,
+          164
+        ],
+        "test_should_return_highest_bid_for_current_price": [],
+        "Bid": [
+          26,
+          26,
+          41,
+          42,
+          43,
+          67,
+          76,
+          84,
+          100,
+          120,
+          131
+        ],
+        "get_dollars": [
+          26,
+          26,
+          29,
+          41,
+          42,
+          43,
+          53,
+          61,
+          67,
+          76,
+          84,
+          87,
+          96,
+          100,
+          103,
+          112,
+          120,
+          121,
+          131,
+          160
+        ],
+        "test_should_return_no_winners_for_empty_bids_list": [],
+        "test_should_return_highest_bids_user_id_for_winners_list": [],
+        "test_should_win_auction_if_is_the_only_bidder_above_starting_price": [],
+        "test_should_not_be_winning_auction_if_bids_below_starting_price": [],
+        "test_should_withdraw_the_only_bid": [],
+        "test_should_add_withdrawn_bids_ids_to_separate_list": [],
+        "test_should_not_be_winning_if_bid_lower_than_current_price": [],
+        "test_should_not_allow_placing_bids_for_ended_auction": [],
+        "test_should_emit_event_upon_overbid": [],
+        "BidderHasBeenOverbid": [
+          106,
+          126
+        ],
+        "test_should_emit_winning_event_if_the_first_offer": [],
+        "WinningBidPlaced": [
+          116,
+          125
+        ],
+        "test_should_emit_winning_if_overbids": [],
+        "test_should_emit_auction_ended": [],
+        "AuctionEnded": [
+          135,
+          144
+        ],
+        "test_should_emit_event_with_none_winner_if_no_winners": [],
+        "test_should_raise_if_auction_has_not_been_ended": [],
+        "test_EndedAuction_PlacingBid_RaisesException": [],
+        "test_EndedAuction_Ending_RaisesException": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/application/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/application/use_cases/test_placing_bid.py": {
+      "language": "python",
+      "functions": [
+        "bidder_id",
+        "amount",
+        "input_dto",
+        "test_loads_auction_using_id",
+        "test_makes_an_expected_bid",
+        "test_saves_auction",
+        "test_presents_output_dto"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "unittest.mock",
+        "pytest",
+        "foundation.value_objects",
+        "foundation.value_objects.factories",
+        "auctions.application.use_cases",
+        "auctions.application.use_cases.placing_bid",
+        "auctions.domain.entities"
+      ],
+      "calls": [
+        [
+          "get_dollars",
+          20
+        ],
+        [
+          "PlacingBidInputDto",
+          25
+        ],
+        [
+          "PlacingBidOutputDto",
+          56
+        ]
+      ],
+      "call_map": {
+        "bidder_id": [],
+        "amount": [],
+        "get_dollars": [
+          20
+        ],
+        "input_dto": [],
+        "PlacingBidInputDto": [
+          25
+        ],
+        "test_loads_auction_using_id": [],
+        "test_makes_an_expected_bid": [],
+        "test_saves_auction": [],
+        "test_presents_output_dto": [],
+        "PlacingBidOutputDto": [
+          56
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/application/use_cases/test_withdrawing_bids.py": {
+      "language": "python",
+      "functions": [
+        "exemplary_bids_ids",
+        "input_dto",
+        "test_loads_auction_using_id",
+        "test_saves_auction_afterwards",
+        "test_calls_withdraw_bids_on_auction"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "unittest.mock",
+        "pytest",
+        "auctions.application.use_cases",
+        "auctions.application.use_cases.withdrawing_bids",
+        "auctions.domain.entities"
+      ],
+      "calls": [
+        [
+          "WithdrawingBidsInputDto",
+          18
+        ]
+      ],
+      "call_map": {
+        "exemplary_bids_ids": [],
+        "input_dto": [],
+        "WithdrawingBidsInputDto": [
+          18
+        ],
+        "test_loads_auction_using_id": [],
+        "test_saves_auction_afterwards": [],
+        "test_calls_withdraw_bids_on_auction": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/application/use_cases/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/tests/application/use_cases/conftest.py": {
+      "language": "python",
+      "functions": [
+        "exemplary_bids_ids",
+        "auction",
+        "auctions_repo_mock",
+        "placing_bid_output_boundary_mock",
+        "placing_bid_uc",
+        "withdrawing_bids_uc"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "unittest.mock",
+        "pytest",
+        "auctions.application.repositories",
+        "auctions.application.use_cases.placing_bid",
+        "auctions.application.use_cases.withdrawing_bids",
+        "auctions.domain.entities",
+        "auctions.tests.factories"
+      ],
+      "calls": [
+        [
+          "AuctionFactory",
+          20
+        ],
+        [
+          "Mock",
+          25
+        ],
+        [
+          "Mock",
+          25
+        ],
+        [
+          "Mock",
+          30
+        ],
+        [
+          "PlacingBid",
+          35
+        ],
+        [
+          "WithdrawingBids",
+          40
+        ]
+      ],
+      "call_map": {
+        "exemplary_bids_ids": [],
+        "auction": [],
+        "AuctionFactory": [
+          20
+        ],
+        "auctions_repo_mock": [],
+        "Mock": [
+          25,
+          25,
+          30
+        ],
+        "placing_bid_output_boundary_mock": [],
+        "placing_bid_uc": [],
+        "PlacingBid": [
+          35
+        ],
+        "withdrawing_bids_uc": [],
+        "WithdrawingBids": [
+          40
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/use_cases/beginning_auction.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "execute"
+      ],
+      "classes": [
+        "BeginningAuctionInputDto",
+        "BeginningAuction"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "datetime",
+        "foundation.value_objects",
+        "auctions.application.repositories",
+        "auctions.domain.entities",
+        "auctions.domain.exceptions",
+        "auctions.domain.value_objects"
+      ],
+      "calls": [],
+      "call_map": {
+        "__init__": [],
+        "execute": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/use_cases/ending_auction.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "execute"
+      ],
+      "classes": [
+        "EndingAuctionInputDto",
+        "EndingAuction"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "auctions.application.repositories",
+        "auctions.domain.value_objects"
+      ],
+      "calls": [],
+      "call_map": {
+        "__init__": [],
+        "execute": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/use_cases/withdrawing_bids.py": {
+      "language": "python",
+      "functions": [
+        "__init__",
+        "execute"
+      ],
+      "classes": [
+        "WithdrawingBidsInputDto",
+        "WithdrawingBids"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "typing",
+        "auctions.application.repositories"
+      ],
+      "calls": [
+        [
+          "isinstance",
+          15
+        ]
+      ],
+      "call_map": {
+        "__init__": [],
+        "isinstance": [
+          15
+        ],
+        "execute": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/use_cases/placing_bid.py": {
+      "language": "python",
+      "functions": [
+        "present",
+        "__init__",
+        "execute"
+      ],
+      "classes": [
+        "PlacingBidInputDto",
+        "PlacingBidOutputDto",
+        "PlacingBidOutputBoundary",
+        "PlacingBid"
+      ],
+      "interfaces": [],
+      "imports": [
+        "abc",
+        "dataclasses",
+        "foundation.value_objects",
+        "auctions.application.repositories",
+        "auctions.domain.value_objects"
+      ],
+      "calls": [
+        [
+          "PlacingBidOutputDto",
+          39
+        ]
+      ],
+      "call_map": {
+        "present": [],
+        "__init__": [],
+        "execute": [],
+        "PlacingBidOutputDto": [
+          39
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/use_cases/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "auctions.application.use_cases.beginning_auction",
+        "auctions.application.use_cases.ending_auction",
+        "auctions.application.use_cases.placing_bid",
+        "auctions.application.use_cases.withdrawing_bids"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/queries/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "auctions.application.queries.auctions"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/queries/auctions.py": {
+      "language": "python",
+      "functions": [
+        "query",
+        "query"
+      ],
+      "classes": [
+        "AuctionDto",
+        "GetSingleAuction",
+        "GetActiveAuctions"
+      ],
+      "interfaces": [],
+      "imports": [
+        "abc",
+        "dataclasses",
+        "datetime",
+        "typing",
+        "foundation.value_objects"
+      ],
+      "calls": [],
+      "call_map": {
+        "query": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/repositories/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "auctions.application.repositories.auctions"
+      ],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/auctions/auctions/application/repositories/auctions.py": {
+      "language": "python",
+      "functions": [
+        "get",
+        "save"
+      ],
+      "classes": [
+        "AuctionsRepository"
+      ],
+      "interfaces": [],
+      "imports": [
+        "abc",
+        "auctions.domain.entities",
+        "auctions.domain.value_objects"
+      ],
+      "calls": [],
+      "call_map": {
+        "get": [],
+        "save": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/setup.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "setuptools"
+      ],
+      "calls": [
+        [
+          "setup",
+          3
+        ],
+        [
+          "find_packages",
+          6
+        ]
+      ],
+      "call_map": {
+        "setup": [
+          3
+        ],
+        "find_packages": [
+          6
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/json_encoder.py": {
+      "language": "python",
+      "functions": [
+        "default",
+        "serialize_auction_dto",
+        "serialize_money",
+        "serialize_datetime"
+      ],
+      "classes": [
+        "JSONEncoder"
+      ],
+      "interfaces": [],
+      "imports": [
+        "datetime",
+        "functools",
+        "json",
+        "foundation.value_objects",
+        "auctions"
+      ],
+      "calls": [
+        [
+          "TypeError",
+          13
+        ],
+        [
+          "type",
+          13
+        ],
+        [
+          "str",
+          27
+        ]
+      ],
+      "call_map": {
+        "default": [],
+        "TypeError": [
+          13
+        ],
+        "type": [
+          13
+        ],
+        "serialize_auction_dto": [],
+        "serialize_money": [],
+        "str": [
+          27
+        ],
+        "serialize_datetime": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/security.py": {
+      "language": "python",
+      "functions": [
+        "get_user",
+        "find_user",
+        "put",
+        "delete",
+        "commit",
+        "find_role",
+        "session",
+        "setup"
+      ],
+      "classes": [
+        "SaUserDatastore"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "flask",
+        "flask_security",
+        "flask_security.datastore",
+        "sqlalchemy.orm",
+        "web_app_models"
+      ],
+      "calls": [
+        [
+          "str",
+          16
+        ],
+        [
+          "Security",
+          44
+        ],
+        [
+          "SaUserDatastore",
+          44
+        ]
+      ],
+      "call_map": {
+        "get_user": [],
+        "str": [
+          16
+        ],
+        "find_user": [],
+        "put": [],
+        "delete": [],
+        "commit": [],
+        "find_role": [],
+        "session": [],
+        "setup": [],
+        "Security": [
+          44
+        ],
+        "SaUserDatastore": [
+          44
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/app.py": {
+      "language": "python",
+      "functions": [
+        "create_app",
+        "transaction_start",
+        "transaction_commit",
+        "add_cors_headers"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "flask",
+        "flask_injector",
+        "sqlalchemy.engine",
+        "sqlalchemy.orm",
+        "main",
+        "main.modules",
+        "web_app.blueprints.auctions",
+        "web_app.blueprints.shipping",
+        "web_app.json_encoder",
+        "web_app.security"
+      ],
+      "calls": [
+        [
+          "Flask",
+          20
+        ],
+        [
+          "bootstrap_app",
+          37
+        ],
+        [
+          "FlaskInjector",
+          38
+        ],
+        [
+          "AuctionsWeb",
+          38
+        ],
+        [
+          "hasattr",
+          53
+        ],
+        [
+          "security_setup",
+          67
+        ]
+      ],
+      "call_map": {
+        "create_app": [],
+        "Flask": [
+          20
+        ],
+        "bootstrap_app": [
+          37
+        ],
+        "FlaskInjector": [
+          38
+        ],
+        "AuctionsWeb": [
+          38
+        ],
+        "transaction_start": [],
+        "transaction_commit": [],
+        "hasattr": [
+          53
+        ],
+        "add_cors_headers": [],
+        "security_setup": [
+          67
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/serialization/dto.py": {
+      "language": "python",
+      "functions": [
+        "get_dto"
+      ],
+      "classes": [
+        "BaseSchema"
+      ],
+      "interfaces": [],
+      "imports": [
+        "typing",
+        "flask",
+        "marshmallow",
+        "marshmallow_dataclass",
+        "foundation.value_objects",
+        "web_app.serialization.fields"
+      ],
+      "calls": [
+        [
+          "TypeVar",
+          11
+        ],
+        [
+          "class_schema",
+          19
+        ],
+        [
+          "schema_cls",
+          20
+        ],
+        [
+          "cast",
+          22
+        ],
+        [
+          "dict",
+          22
+        ],
+        [
+          "abort",
+          24
+        ],
+        [
+          "make_response",
+          24
+        ],
+        [
+          "jsonify",
+          24
+        ]
+      ],
+      "call_map": {
+        "TypeVar": [
+          11
+        ],
+        "get_dto": [],
+        "class_schema": [
+          19
+        ],
+        "schema_cls": [
+          20
+        ],
+        "cast": [
+          22
+        ],
+        "dict": [
+          22
+        ],
+        "abort": [
+          24
+        ],
+        "make_response": [
+          24
+        ],
+        "jsonify": [
+          24
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/serialization/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/serialization/fields.py": {
+      "language": "python",
+      "functions": [
+        "_serialize",
+        "_deserialize"
+      ],
+      "classes": [
+        "Dollars"
+      ],
+      "interfaces": [],
+      "imports": [
+        "marshmallow",
+        "foundation.value_objects.factories"
+      ],
+      "calls": [
+        [
+          "str",
+          8
+        ],
+        [
+          "get_dollars",
+          12
+        ],
+        [
+          "str",
+          14
+        ]
+      ],
+      "call_map": {
+        "_serialize": [],
+        "str": [
+          8,
+          14
+        ],
+        "_deserialize": [],
+        "get_dollars": [
+          12
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/tests/test_auth.py": {
+      "language": "python",
+      "functions": [
+        "test_register_returns_details_with_auth_token",
+        "test_register_creates_customer",
+        "assert_customer_with_given_email_exists",
+        "registered_user",
+        "test_login"
+      ],
+      "classes": [
+        "RegisteredUser"
+      ],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "flask",
+        "pytest",
+        "sqlalchemy.engine",
+        "customer_relationship"
+      ],
+      "calls": [
+        [
+          "isinstance",
+          15
+        ],
+        [
+          "isinstance",
+          16
+        ],
+        [
+          "assert_customer_with_given_email_exists",
+          26
+        ],
+        [
+          "RegisteredUser",
+          44
+        ]
+      ],
+      "call_map": {
+        "test_register_returns_details_with_auth_token": [],
+        "isinstance": [
+          15,
+          16
+        ],
+        "test_register_creates_customer": [],
+        "assert_customer_with_given_email_exists": [
+          26
+        ],
+        "registered_user": [],
+        "RegisteredUser": [
+          44
+        ],
+        "test_login": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/tests/test_auctions.py": {
+      "language": "python",
+      "functions": [
+        "example_auction",
+        "test_return_single_auction",
+        "test_returns_list_of_auctions",
+        "logged_in_client",
+        "test_places_bid"
+      ],
+      "classes": [
+        "BeginningAuctionInputDtoFactory",
+        "Meta"
+      ],
+      "interfaces": [],
+      "imports": [
+        "factory",
+        "flask.testing",
+        "injector",
+        "pytest",
+        "foundation.value_objects.factories",
+        "auctions",
+        "main.modules"
+      ],
+      "calls": [
+        [
+          "get_dollars",
+          18
+        ],
+        [
+          "int",
+          32
+        ],
+        [
+          "type",
+          39
+        ],
+        [
+          "type",
+          46
+        ]
+      ],
+      "call_map": {
+        "get_dollars": [
+          18
+        ],
+        "example_auction": [],
+        "int": [
+          32
+        ],
+        "test_return_single_auction": [],
+        "type": [
+          39,
+          46
+        ],
+        "test_returns_list_of_auctions": [],
+        "logged_in_client": [],
+        "test_places_bid": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/tests/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/tests/conftest.py": {
+      "language": "python",
+      "functions": [
+        "config_path",
+        "app",
+        "container",
+        "client",
+        "connection"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "os",
+        "_pytest.tmpdir",
+        "flask",
+        "injector",
+        "pytest",
+        "sqlalchemy.engine",
+        "web_app.app"
+      ],
+      "calls": [
+        [
+          "open",
+          17
+        ],
+        [
+          "str",
+          32
+        ],
+        [
+          "create_app",
+          44
+        ],
+        [
+          "create_engine",
+          59
+        ]
+      ],
+      "call_map": {
+        "config_path": [],
+        "open": [
+          17
+        ],
+        "str": [
+          32
+        ],
+        "app": [],
+        "create_app": [
+          44
+        ],
+        "container": [],
+        "client": [],
+        "connection": [],
+        "create_engine": [
+          59
+        ]
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/blueprints/__init__.py": {
+      "language": "python",
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "imports": [],
+      "calls": [],
+      "call_map": {}
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/blueprints/shipping.py": {
+      "language": "python",
+      "functions": [
+        "get_next_package",
+        "ship_package"
+      ],
+      "classes": [],
+      "interfaces": [],
+      "imports": [
+        "dataclasses",
+        "flask",
+        "flask_login",
+        "shipping"
+      ],
+      "calls": [
+        [
+          "Blueprint",
+          13
+        ],
+        [
+          "abort",
+          20
+        ],
+        [
+          "make_response",
+          21
+        ],
+        [
+          "jsonify",
+          21
+        ],
+        [
+          "abort",
+          27
+        ],
+        [
+          "make_response",
+          33
+        ]
+      ],
+      "call_map": {
+        "Blueprint": [
+          13
+        ],
+        "get_next_package": [],
+        "abort": [
+          20,
+          27
+        ],
+        "make_response": [
+          21,
+          33
+        ],
+        "jsonify": [
+          21
+        ],
+        "ship_package": []
+      }
+    },
+    "/home/ivzarru/mathmod2025/Beeline-code-decomposer/data/test_repos/clean-architecture/auctioning_platform/web_app/web_app/blueprints/auctions.py": {
+      "language": "python",
+      "functions": [
+        "placing_bid_output_boundary",
+        "auctions_list",
+        "single_auction",
+        "place_bid",
+        "present"
+      ],
+      "classes": [
+        "AuctionsWeb",
+        "PlacingBidPresenter"
+      ],
+      "interfaces": [],
+      "imports": [
+        "flask",
+        "flask_injector",
+        "flask_login",
+        "injector",
+        "auctions",
+        "web_app.serialization.dto"
+      ],
+      "calls": [
+        [
+          "Blueprint",
+          17
+        ],
+        [
+          "PlacingBidPresenter",
+          24
+        ],
+        [
+          "make_response",
+          29
+        ],
+        [
+          "jsonify",
+          29
+        ],
+        [
+          "make_response",
+          34
+        ],
+        [
+          "jsonify",
+          34
+        ],
+        [
+          "abort",
+          40
+        ],
+        [
+          "get_dto",
+          42
+        ],
+        [
+          "make_response",
+          57
+        ],
+        [
+          "jsonify",
+          57
+        ]
+      ],
+      "call_map": {
+        "Blueprint": [
+          17
+        ],
+        "placing_bid_output_boundary": [],
+        "PlacingBidPresenter": [
+          24
+        ],
+        "auctions_list": [],
+        "make_response": [
+          29,
+          34,
+          57
+        ],
+        "jsonify": [
+          29,
+          34,
+          57
+        ],
+        "single_auction": [],
+        "place_bid": [],
+        "abort": [
+          40
+        ],
+        "get_dto": [
+          42
+        ],
+        "present": []
+      }
+    }
+  },
+  "stats": {
+    "total_files": 145,
+    "functions": 339,
+    "classes": 118,
+    "interfaces": 0,
+    "imports": 501,
+    "calls": 581
+  }
+}
