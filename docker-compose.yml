@@ -11,7 +11,6 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - FOLDER_ID=${FOLDER_ID}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - OPENAI_API_BASE=${OPENAI_API_BASE}
       - OPENAI_MODEL_NAME=${OPENAI_MODEL_NAME}
@@ -31,7 +30,6 @@ services:
       - "3000:3000"
     environment:
         - BACKEND_URL=${BACKEND_URL}
-        - OPENAI_API_KEY=${OPENAI_API_KEY}
         - SECRET_TOKEN=${SECRET_TOKEN}
     networks:
       - app-network   
