@@ -7,8 +7,10 @@ from api.entities.file import File
 
 from ..graph import Graph
 from .analyzer import AbstractAnalyzer
-# from .c.analyzer import CAnalyzer
+from .c.analyzer import CppAnalyzer
 from .java.analyzer import JavaAnalyzer
+from pygit2.repository import Repository
+
 from .python.analyzer import PythonAnalyzer
 
 from multilspy import SyncLanguageServer
@@ -21,8 +23,9 @@ logging.basicConfig(level=logging.DEBUG, format='%(filename)s - %(asctime)s - %(
 
 # List of available analyzers
 analyzers: dict[str, AbstractAnalyzer] = {
-    # '.c': CAnalyzer(),
-    # '.h': CAnalyzer(),
+    '.c': CppAnalyzer(),
+    '.cpp': CppAnalyzer(),
+    '.h': CppAnalyzer(),
     '.py': PythonAnalyzer(),
     '.java': JavaAnalyzer()}
 
@@ -197,7 +200,6 @@ class SourceAnalyzer():
             path (str): Path to a local git repository
             ignore (List(str)): List of paths to skip
         """
-        from pygit2.repository import Repository
 
         self.analyze_local_folder(path, ignore)
 

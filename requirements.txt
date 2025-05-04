@@ -7,3 +7,11 @@ python-dotenv==1.1.0
 pyan3
 #graphviz
 tree-sitter==0.21.3
+datasets
+langchain_core
+bs4
+langgraph
+langgraph-cli
+requests
+tree_sitter_c
+multilspy
