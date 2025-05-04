@@ -11,6 +11,10 @@ services:
     ports:
       - "5000:5000"
     environment:
+      - FOLDER_ID=${FOLDER_ID}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_API_BASE=${OPENAI_API_BASE}
+      - OPENAI_MODEL_NAME=${OPENAI_MODEL_NAME}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - SECRET_TOKEN=${SECRET_TOKEN}
       - FLASK_RUN_HOST=${FLASK_RUN_HOST}
