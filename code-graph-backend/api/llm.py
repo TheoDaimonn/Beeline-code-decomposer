@@ -238,31 +238,10 @@ ontology = _define_ontology()
 
 def _create_kg_agent(repo_name: str):
     global ontology
-
-    # model_name = os.getenv('MODEL_NAME', 'gemini/gemini-2.0-flash')
-
-    # model = LiteModel(model_name)
-    base_url = os.environ.get("OPENAI_API_BASE")
-    api_key = os.environ.get("OPENAI_API_KEY")
-    print(base_url, api_key)
-    if base_url:
-        client = openai.OpenAI(
-            base_url=base_url,
-            # This is the default and can be omitted
-            api_key=api_key,
-        )
-    else:
-        client = openai.OpenAI(
-            api_key=api_key,
-        )
     model_name = os.environ.get("OPENAI_MODEL_NAME") 
-    print(model_name)
     model = OpenAiGenerativeModel( 
         model_name=model_name
     )
-    model.client = client
-    print(model.start_chat().send_message("hello"))
-    #ontology = _define_ontology()
     code_graph_kg = KnowledgeGraph(
         name=repo_name,
         ontology=ontology,
@@ -281,14 +260,9 @@ def _create_kg_agent(repo_name: str):
 
 def ask(repo_name: str, question: str) -> str:
     chat = _create_kg_agent(repo_name)
-
     logging.debug(f"Question: {question}")
-    print(f"Question: {question}")
+    print(f"Question: {question}")  
     response = chat.send_message(question)
     logging.debug(f"Response: {response}")
     print(f"Response: {response['response']}")
     return response['response']
-
-
-if __name__ == "main":
-    print(ask("hello"))
