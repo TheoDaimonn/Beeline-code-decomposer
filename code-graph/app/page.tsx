@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Chat } from './components/chat';
 import { Graph, GraphData } from './components/model';
-import { BookOpen, Github, HomeIcon, X } from 'lucide-react';
+import { BookOpen, Github, HomeIcon, X, Info } from 'lucide-react';
 import Link from 'next/link';
 import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
 import { CodeGraph } from './components/code-graph';
@@ -178,6 +178,10 @@ export default function Home() {
             <Link title="Github" className="flex gap-2.5 items-center p-4" href="https://github.com/FalkorDB/code-graph" target='_blank'>
               <Github />
               <p>Github</p>
+            </Link>
+            <Link title="About" className="flex gap-2.5 items-center p-4" href="/about">
+              <Info />
+              <p>О проекте</p>
             </Link>
             <DropdownMenu open={tipOpen} onOpenChange={setTipOpen}>
               <DropdownMenuTrigger asChild>
