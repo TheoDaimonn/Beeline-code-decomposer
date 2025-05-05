@@ -5,7 +5,7 @@ from pathlib import Path
 
 import toml
 from ...entities import *
-from typing import Optional
+from typing import *
 from ..analyzer import AbstractAnalyzer
 
 import tree_sitter_python as tspython
