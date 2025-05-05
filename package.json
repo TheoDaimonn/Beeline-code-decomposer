@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mermaid": "^11.6.0",
+    "remark-mermaidjs": "^7.0.0"
+  }
+}
