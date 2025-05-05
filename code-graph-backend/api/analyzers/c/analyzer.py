@@ -1,4 +1,5 @@
 import os
+import subprocess
 from pathlib import Path
 # Убираем subprocess, так как он не используется в упрощенной версии
 from api.entities import Entity, File # Предполагаем правильный путь импорта
@@ -12,6 +13,7 @@ import logging
 
 logger = logging.getLogger('code_graph')
 
+import tree_sitter_cpp as tscpp
 class CppAnalyzer(AbstractAnalyzer):
     """
     Simplified C++ Analyzer using tree-sitter ONLY.
