@@ -23,6 +23,7 @@ services:
     networks:
       - app-network
 
+
   frontend:
     container_name: frontend
     build: ./code-graph  
@@ -42,3 +43,40 @@ services:
       - "3001:3000"
     networks:
       - app-network 
+
+  deepwiki:
+    container_name: deepwiki
+    build: ./deepwiki
+    ports:
+      - "8001:8001"  # API port
+      - "3002:3000"  # Next.js port
+    environment:
+      - OPENAI_MODEL_NAME="yandexgpt/rc"
+      - OPENAI_BASE_URL="http://y2o:8520/"
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_EMB_MODEL_NAME=${OPENAI_EMB_MODEL_NAME}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL}
+      - OPENAI_MODEL_NAME=${OPENAI_MODEL_NAME}
+        - PORT=8001
+    networks: 
+      - app-network
+    volumes:
+      - C:/Users/User/.adalflow:/root/.adalflow
+      - ~/.adalflow:/root/.adalflow  # Persist repository and embedding data
+
+  y2o:
+    container_name: y2o
+    build: ./YandexGPT_to_OpenAI
+    environment:
+      - Y2O_BringYourOwnKey=true
+      - Y2O_ServerURL=http://0.0.0.0:8520
+      - Y2O_LogFile=logs/y2o.log
+      - Y2O_LogLevel=INFO
+    volumes:
+      - ./YandexGPT_to_OpenAI/data:/app/data
+      - ./YandexGPT_to_OpenAI/logs:/app/logs
+    ports:
+      - "8520:8520"
+    networks: 
+      - app-network
+    restart: unless-stopped
