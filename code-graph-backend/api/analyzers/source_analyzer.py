@@ -12,6 +12,7 @@ from .java.analyzer import JavaAnalyzer
 from pygit2.repository import Repository
 
 from .python.analyzer import PythonAnalyzer
+from typing import *
 
 from multilspy import SyncLanguageServer
 from multilspy.multilspy_config import MultilspyConfig
@@ -165,13 +166,29 @@ class SourceAnalyzer():
         self.first_pass(path, files, [], graph)
         self.second_pass(graph, files, path)
 
-    def analyze_sources(self, path: Path, ignore: list[str], graph: Graph) -> None:
-        files = list(path.rglob("*.java")) + list(path.rglob("*.py"))
+    def analyze_sources(self, path: Path, ignore: List[str], graph: Graph) -> None:
+        """
+        Perform analysis on source files in the given folder.
+
+        Args:
+            path (Path): Path to a local folder containing source files to process
+            ignore (List[str]): List of paths to skip
+            graph (Graph): Graph object to populate with analysis results
+        """
+        # Ensure we work with an absolute, normalized path
+        abs_path = path.resolve()
+        logging.info(f"Resolving source folder to absolute path: {abs_path}")
+
+        # Collect Java and Python files recursively
+        files = list(abs_path.rglob("*.java")) + list(abs_path.rglob("*.py"))
+        logging.info(f"Found {len(files)} source files in {abs_path}")
+
         # First pass analysis of the source code
-        self.first_pass(path, files, ignore, graph)
+        self.first_pass(abs_path, files, ignore, graph)
 
         # Second pass analysis of the source code
-        self.second_pass(graph, files, path)
+        self.second_pass(graph, files, abs_path)
+
 
     def analyze_local_folder(self, path: str, g: Graph, ignore: Optional[list[str]] = []) -> None:
         """
